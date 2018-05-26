@@ -1,0 +1,189 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>News - cast-web</title><meta name="robots" content="index, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="canonical" href="https://vervallsweg.github.io/cast-web/Blog.html"><link rel="amphtml" href="https://vervallsweg.github.io/cast-web/amp/Blog.html"><link type="application/atom+xml" rel="alternate" href="https://vervallsweg.github.io/cast-web/feed.xml"><meta property="og:title" content="News"><meta property="og:image" content="https://vervallsweg.github.io/cast-web/media/website/ic-cast-web-api-gray-50-300-01.png"><meta property="og:site_name" content="cast-web"><meta property="og:description" content=""><link rel="stylesheet" href="https://vervallsweg.github.io/cast-web/assets/css/style.css?v=6d283be7ba63771ddf29d4bf48e1b58f"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://vervallsweg.github.io/cast-web/Blog.html"},"headline":"News","datePublished":"2018-05-22T15:10","dateModified":"2018-05-22T15:12","image":{"@type":"ImageObject","url":"https://vervallsweg.github.io/cast-web/media/website/ic-cast-web-api-gray-50-300-01.png","height":100,"width":100},"description":"","author":{"@type":"Person","name":"vervallsweg"},"publisher":{"@type":"Organization","name":"vervallsweg","logo":{"@type":"ImageObject","url":"https://vervallsweg.github.io/cast-web/media/website/ic-cast-web-api-gray-50-300-01.png","height":100,"width":100}}}</script><style>.top__search [type=search] {
+						background-image: url(https://vervallsweg.github.io/cast-web/assets/svg/search.svg);
+				    }</style><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/components/accordion.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/components/grid.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/components/step.min.css"><script>(function(funcName, baseObj) {
+    "use strict";
+    // The public function name defaults to window.docReady
+    // but you can modify the last line of this function to pass in a different object or method name
+    // if you want to put them in a different namespace and those will be used instead of 
+    // window.docReady(...)
+    funcName = funcName || "docReady";
+    baseObj = baseObj || window;
+    var readyList = [];
+    var readyFired = false;
+    var readyEventHandlersInstalled = false;
+    
+    // call this when the document is ready
+    // this function protects itself against being called more than once
+    function ready() {
+        if (!readyFired) {
+            // this must be set to true before we start calling callbacks
+            readyFired = true;
+            for (var i = 0; i < readyList.length; i++) {
+                // if a callback here happens to add new ready handlers,
+                // the docReady() function will see that it already fired
+                // and will schedule the callback to run right after
+                // this event loop finishes so all handlers will still execute
+                // in order and no new ones will be added to the readyList
+                // while we are processing the list
+                readyList[i].fn.call(window, readyList[i].ctx);
+            }
+            // allow any closures held by these functions to free
+            readyList = [];
+        }
+    }
+    
+    function readyStateChange() {
+        if ( document.readyState === "complete" ) {
+            ready();
+        }
+    }
+    
+    // This is the one public interface
+    // docReady(fn, context);
+    // the context argument is optional - if present, it will be passed
+    // as an argument to the callback
+    baseObj[funcName] = function(callback, context) {
+        if (typeof callback !== "function") {
+            throw new TypeError("callback for docReady(fn) must be a function");
+        }
+        // if ready has already fired, then just schedule the callback
+        // to fire asynchronously, but right away
+        if (readyFired) {
+            setTimeout(function() {callback(context);}, 1);
+            return;
+        } else {
+            // add the function and context to the list
+            readyList.push({fn: callback, ctx: context});
+        }
+        // if document already ready to go, schedule the ready function to run
+        // IE only safe when readyState is "complete", others safe when readyState is "interactive"
+        if (document.readyState === "complete" || (!document.attachEvent && document.readyState === "interactive")) {
+            setTimeout(ready, 1);
+        } else if (!readyEventHandlersInstalled) {
+            // otherwise if we don't have event handlers installed, install them
+            if (document.addEventListener) {
+                // first choice is DOMContentLoaded event
+                document.addEventListener("DOMContentLoaded", ready, false);
+                // backup is window load event
+                window.addEventListener("load", ready, false);
+            } else {
+                // must be IE
+                document.attachEvent("onreadystatechange", readyStateChange);
+                window.attachEvent("onload", ready);
+            }
+            readyEventHandlersInstalled = true;
+        }
+    }
+})("docReady", window);</script></head><body><script>docReady(function(){
+  	var imported0 = document.createElement('script');
+	imported0.src = 'https://code.jquery.com/jquery-3.1.1.min.js';
+	var imported1 = document.createElement('script');
+	imported1.src = 'https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.js';
+	var imported2 = document.createElement('script');
+	imported2.src = 'https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/components/accordion.min.js';
+
+  	document.body.appendChild(imported0);
+	document.body.appendChild(imported1);
+	document.body.appendChild(imported2);
+
+	$('#step1, #step2, #step3, #step4').click(function(){ $(this).find('a')[0].click(); });
+
+	$('.ui.accordion').find('h2').append('<i class="dropdown icon"></i>');
+
+	$('.ui.accordion').find('.title').click(function(){
+  		$('.ui.accordion').accordion();
+	});
+
+});</script><div id="beta" style="text-align:center; background-color: red;color: white;">BETA - this website is not ment to be used right now - BETA</div><div class="container"><header class="js-top is-sticky"><a class="logo" href="https://vervallsweg.github.io/cast-web"><img src="https://vervallsweg.github.io/cast-web/media/website/ic-cast-web-api-gray-50-300-01.png" alt="cast-web"></a><div class="top"><nav class="navbar js-navbar"><button class="navbar__toggle js-navbar__toggle">Menu</button><ul class="navbar__menu"><li class="has-submenu"><a href="https://vervallsweg.github.io/cast-web/installation.html">Installation</a><ul class="navbar__submenu"><li><a href="https://vervallsweg.github.io/cast-web/installation-cast-web-api.html">cast-web-api</a></li><li><a href="https://vervallsweg.github.io/cast-web/Installation-service-manager-and-device-type.html">service manager &amp; dth</a></li><li><a href="https://vervallsweg.github.io/cast-web/First-steps.html">first steps</a></li></ul></li><li><a href="https://vervallsweg.github.io/cast-web/Updating.html">Updating</a></li><li><a href="https://vervallsweg.github.io/cast-web/Help.html">Help</a></li><li><a href="https://vervallsweg.github.io/cast-web/category/news/">News</a></li></ul></nav><div class="top__search"><form action="https://vervallsweg.github.io/cast-web/search.html" class="search"><input type="search" name="q" placeholder="search..."></form></div></div></header><main><article class="post"><div class="hero"><div class="hero__wrap"><img src="https://vervallsweg.github.io/cast-web/media/website/cast-web-api-hero.jpg" srcset="https://vervallsweg.github.io/cast-web/media/website/responsive/cast-web-api-hero-xs.jpg 300w, https://vervallsweg.github.io/cast-web/media/website/responsive/cast-web-api-hero-sm.jpg 480w, https://vervallsweg.github.io/cast-web/media/website/responsive/cast-web-api-hero-md.jpg 768w, https://vervallsweg.github.io/cast-web/media/website/responsive/cast-web-api-hero-lg.jpg 1024w, https://vervallsweg.github.io/cast-web/media/website/responsive/cast-web-api-hero-xl.jpg 1360w, https://vervallsweg.github.io/cast-web/media/website/responsive/cast-web-api-hero-2xl.jpg 1600w" sizes="(max-width: 1600px) 100vw, 1600px" alt=""></div><header class="hero__text"><h1>News</h1></header></div><div class="post__entry"></div><aside class="post__share"><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fvervallsweg.github.io%2Fcast-web%2FBlog.html" class="js-share facebook" title="Share with Facebook" rel="nofollow"><svg class="icon"><use xlink:href="https://vervallsweg.github.io/cast-web/assets/svg/svg-map.svg#facebook"/></svg> </a><a href="https://twitter.com/share?url=https%3A%2F%2Fvervallsweg.github.io%2Fcast-web%2FBlog.html&amp;via=cast-web&amp;text=News" class="js-share twitter" title="Share with Twitter" rel="nofollow"><svg class="icon"><use xlink:href="https://vervallsweg.github.io/cast-web/assets/svg/svg-map.svg#twitter"/></svg> </a><a href="https://plus.google.com/share?url=https%3A%2F%2Fvervallsweg.github.io%2Fcast-web%2FBlog.html" class="js-share gplus" title="Share with Google Plus" rel="nofollow"><svg class="icon"><use xlink:href="https://vervallsweg.github.io/cast-web/assets/svg/svg-map.svg#gplus"/></svg> </a><a href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fvervallsweg.github.io%2Fcast-web%2FBlog.html&amp;media=undefined
+                        &amp;description=News" class="js-share pinterest" title="Share with Pinterest" rel="nofollow"><svg class="icon"><use xlink:href="https://vervallsweg.github.io/cast-web/assets/svg/svg-map.svg#pinterest"/></svg> </a><a href="http://www.stumbleupon.com/submit?url=https%3A%2F%2Fvervallsweg.github.io%2Fcast-web%2FBlog.html&amp;title=News" class="js-share stumbleupon" title="Share with StumbleUpon" rel="nofollow"><svg class="icon"><use xlink:href="https://vervallsweg.github.io/cast-web/assets/svg/svg-map.svg#stumbleupon"/></svg> </a><a href="http://www.linkedin.com/shareArticle?url=https%3A%2F%2Fvervallsweg.github.io%2Fcast-web%2FBlog.html&amp;title=News" class="js-share linkedin" title="Share with LinkedIn" rel="nofollow"><svg class="icon"><use xlink:href="https://vervallsweg.github.io/cast-web/assets/svg/svg-map.svg#linkedin"/></svg> </a><a href="https://buffer.com/add?text=News&amp;url=https%3A%2F%2Fvervallsweg.github.io%2Fcast-web%2FBlog.html" class="js-share buffer" title="Share with Buffer" rel="nofollow"><svg class="icon"><use xlink:href="https://vervallsweg.github.io/cast-web/assets/svg/svg-map.svg#buffer"/></svg></a></aside><footer class="post__footer"></footer></article></main><footer class="footer"><div class="footer__copyright">Powered by Publii</div></footer></div><script>var loadCSSFiles = function() {
+            var links = ['https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:400,700&amp;subset=latin-ext'],
+                headElement = document.getElementsByTagName('head')[0],
+                linkElement, i;
+            for (i = 0; i < links.length; i++) {
+                linkElement = document.createElement('link');
+                linkElement.rel = 'stylesheet';
+                linkElement.href = links[i];
+                headElement.appendChild(linkElement);
+            }
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) {
+            raf(loadCSSFiles);
+        } else {
+            window.addEventListener('load', loadCSSFiles);
+        }</script><script defer="defer" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" aria-dropeffect="" crossorigin="anonymous"></script><script defer="defer" src="https://vervallsweg.github.io/cast-web/assets/js/scripts.min.js?v=5dffffceea1fdc07740088873ba7ff09"></script><div class="cookie-popup js-cookie-popup cookie-popup--uses-badge"><h2>This website uses cookies</h2><p>Select which cookies to opt-in to via the checkboxes below; our website uses cookies to examine site traffic and user activity while on our site, for marketing, and to provide social media functionality. <a href="#not-specified">More details...</a></p><form><input id="gdpr-necessary" name="gdpr-necessary" checked="checked" disabled="disabled" type="checkbox"> <label for="gdpr-necessary">Required</label> <input id="gdpr-functions" name="gdpr-functions" type="checkbox"> <label for="gdpr-functions">Functionality</label> <input id="gdpr-analytics" name="gdpr-analytics" type="checkbox"> <label for="gdpr-analytics">Analytical</label> <input id="gdpr-marketing" name="gdpr-marketing" type="checkbox"> <label for="gdpr-marketing">Marketing</label><p class="cookie-popup__save-wrapper"><button type="submit" class="cookie-popup__save">Save</button></p></form><span class="cookie-popup-label">Cookie Policy</span></div><script>(function() {
+                    function addScript (src, inline) {
+                        var newScript = document.createElement('script');
+    
+                        if (src) {
+                            newScript.setAttribute('src', src);
+                        }
+    
+                        if (inline) {
+                            newScript.text = inline;
+                        }
+    
+                        document.body.appendChild(newScript);
+                    }
+    
+                    var popup = document.querySelector('.js-cookie-popup');
+                    var checkboxes = popup.querySelectorAll('input[type="checkbox"]');
+                    var save = popup.querySelector('button');
+                    var currentConfig = localStorage.getItem('publii-gdpr-allowed-cookies');
+                    var blockedScripts = document.querySelectorAll('script[type^="gdpr-blocker/"]');
+                    
+    
+                    popup.addEventListener('click', function() {
+                        if (!popup.classList.contains('cookie-popup--is-sticky')) {
+                            popup.classList.add('cookie-popup--is-sticky');
+                        }
+                    });
+    
+                    save.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        popup.classList.remove('cookie-popup--is-sticky');
+                        var allowedGroups = [];
+    
+                        for (var i = 0; i < checkboxes.length; i++) {
+                            if (checkboxes[i].checked) {
+                                var groupName = checkboxes[i].getAttribute('name').replace('gdpr-', '');
+                                var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + groupName + '"]');
+    
+                                for (var j = 0; j < scripts.length; j++) {
+                                    addScript(scripts[j].src, scripts[j].text);
+                                }
+    
+                                allowedGroups.push(groupName);
+                            }
+                        }
+    
+                        localStorage.setItem('publii-gdpr-allowed-cookies', allowedGroups.join(','));
+                        popup.classList.remove('cookie-popup--is-sticky');
+    
+                        setTimeout(function () {
+                            if (currentConfig) {
+                                window.location.reload();
+                            }
+                        }, 250);
+                    });
+    
+                    if (!currentConfig) {
+                        popup.classList.add('cookie-popup--is-sticky');
+                    } else {
+                        var allowedGroups = currentConfig.split(',');
+    
+                        for (var i = 0; i < allowedGroups.length; i++) {
+                            var scripts = document.querySelectorAll('script[type="gdpr-blocker/' + allowedGroups[i] + '"]');
+                            var checkbox = popup.querySelector('input[type="checkbox"][name="gdpr-' + allowedGroups[i] + '"]');
+    
+                            if (checkbox) {
+                                checkbox.checked = true;
+                            }
+    
+                            for (var j = 0; j < scripts.length; j++) {
+                                addScript(scripts[j].src, scripts[j].text);
+                            }
+                        }
+                    }
+                })();</script></body></html>

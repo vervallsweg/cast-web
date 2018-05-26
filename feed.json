@@ -1,0 +1,155 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "cast-web",
+    "description": "",
+    "home_page_url": "https://vervallsweg.github.io/cast-web",
+    "feed_url": "https://vervallsweg.github.io/cast-web/feed.json",
+    "user_comment": "",
+    "icon": "https://vervallsweg.github.io/cast-web/media/website/ic-cast-web-api-gray-50-300-01.png",
+    "author": {
+        "name": "vervallsweg"
+    },
+    "items": [
+        {
+            "id": "https://vervallsweg.github.io/cast-web/FAQ.html",
+            "url": "https://vervallsweg.github.io/cast-web/FAQ.html",
+            "title": "FAQ",
+            "content_html": "<p>Coming soon.</p>\n<p>Still got questions? Check <a href=\"#INTERNAL_LINK#/post/4\">help</a>.</p>",
+            "image": "https://vervallsweg.github.io/cast-web/media/posts/11/",
+            "author": {
+                "name": "vervallsweg"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-05-25T17:28:17+02:00",
+            "date_modified": "2018-05-25T17:38:49+02:00"
+        },
+        {
+            "id": "https://vervallsweg.github.io/cast-web/Second-blog-post.html",
+            "url": "https://vervallsweg.github.io/cast-web/Second-blog-post.html",
+            "title": "Second blog post",
+            "content_html": "Hello again.",
+            "image": "https://vervallsweg.github.io/cast-web/media/posts/10/",
+            "author": {
+                "name": "vervallsweg"
+            },
+            "tags": [
+                   "News"
+            ],
+            "date_published": "2018-05-25T10:30:14+02:00",
+            "date_modified": "2018-05-25T10:30:14+02:00"
+        },
+        {
+            "id": "https://vervallsweg.github.io/cast-web/First-blog-post.html",
+            "url": "https://vervallsweg.github.io/cast-web/First-blog-post.html",
+            "title": "Updating from a version below 1.x",
+            "content_html": "Hello world.",
+            "image": "https://vervallsweg.github.io/cast-web/media/posts/9/",
+            "author": {
+                "name": "vervallsweg"
+            },
+            "tags": [
+                   "News"
+            ],
+            "date_published": "2018-05-25T10:28:01+02:00",
+            "date_modified": "2018-05-25T16:16:49+02:00"
+        },
+        {
+            "id": "https://vervallsweg.github.io/cast-web/First-steps.html",
+            "url": "https://vervallsweg.github.io/cast-web/First-steps.html",
+            "title": "Installation - first steps",
+            "content_html": "<div class=\"ui one column grid\">\n<div class=\"column\">\n<div class=\"ui fluid ordered steps\" style=\"font-size: 0.75em;\">\n<div id=\"step1\" class=\"completed link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/1\" style=\"display: none;\" title=\"Step 1\">Step 1</a>\n<div class=\"content\">\n<div class=\"title\">Overview</div>\n<div class=\"description\">Learn what<br>you're installing</div>\n</div>\n</div>\n<div id=\"step2\" class=\"completed link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/6\" style=\"display: none;\" title=\"Step 2\">Step 2</a>\n<div class=\"content\">\n<div class=\"title\">cast-web-api</div>\n<div class=\"description\">Install the bridge<br>on your network</div>\n</div>\n</div>\n<div id=\"step3\" class=\"completed link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/7\" style=\"display: none;\" title=\"Step 3\">Step 3</a>\n<div class=\"content\">\n<div class=\"title\">Device handler</div>\n<div class=\"description\">Install the 'drivers'<br>for Smartthings</div>\n</div>\n</div>\n<div id=\"step4\" class=\"active link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/8\" style=\"display: none;\" title=\"Step 4\">Step 4</a>\n<div class=\"content\">\n<div class=\"title\">Done</div>\n<div class=\"description\">First steps</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<h2>Adding your devices</h2>\n<ol>\n<li>Open your Smartthings mobile app</li>\n<li>Go to: 'Marketplace' &gt; 'Smartapps' &gt; '+ My Apps' &gt; Google Cast web - service manager</li>\n<li>Enter your cast-web-api address (displayed on startup of the API)</li>\n<li>Tap 'Discover devices'</li>\n<li>Select your devices and click 'Done'</li>\n</ol>\n<p>After you added your devices, they should show up on the Smartapps main page.</p>\n<h2>Settings</h2>\n<p>Every device has two different settings menus</p>\n<h3>Device page settings</h3>\n<p>In your Smartthings app, every cast-web device has a settings wheel in the top right corner. This is where you find all device settings.</p>\n<h3>Service manager settings</h3>\n<p>Open the Service manager and tap any device's name. You can change the API address here and set/edit your presets.</p>\n<p><a href=\"#INTERNAL_LINK#/post/6\" class=\"btn\" title=\"Previous\">Previous</a></p>",
+            "image": "https://vervallsweg.github.io/cast-web/media/posts/8/",
+            "author": {
+                "name": "vervallsweg"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-05-22T18:09:58+02:00",
+            "date_modified": "2018-05-25T15:10:02+02:00"
+        },
+        {
+            "id": "https://vervallsweg.github.io/cast-web/Installation-service-manager-and-device-type.html",
+            "url": "https://vervallsweg.github.io/cast-web/Installation-service-manager-and-device-type.html",
+            "title": "Installation - service manager &amp; DTH",
+            "content_html": "<div class=\"ui one column grid\">\n<div class=\"column\">\n<div class=\"ui fluid ordered steps\" style=\"font-size: 0.75em;\">\n<div id=\"step1\" class=\"completed link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/1\" style=\"display: none;\" title=\"Step 1\">Step 1</a>\n<div class=\"content\">\n<div class=\"title\">Overview</div>\n<div class=\"description\">Learn what<br>you're installing</div>\n</div>\n</div>\n<div id=\"step2\" class=\"completed link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/6\" style=\"display: none;\" title=\"Step 2\">Step 2</a>\n<div class=\"content\">\n<div class=\"title\">cast-web-api</div>\n<div class=\"description\">Install the bridge<br>on your network</div>\n</div>\n</div>\n<div id=\"step3\" class=\"active link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/7\" style=\"display: none;\" title=\"Step 3\">Step 3</a>\n<div class=\"content\">\n<div class=\"title\">Device handler</div>\n<div class=\"description\">Install the 'drivers'<br>for Smartthings</div>\n</div>\n</div>\n<div id=\"step4\" class=\"link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/8\" style=\"display: none;\" title=\"Step 4\">Step 4</a>\n<div class=\"content\">\n<div class=\"title\">Done</div>\n<div class=\"description\">First steps</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<h2>Open the Smartthings IDE</h2>\n<ol>\n<li>Go to <a href=\"https://graph.api.smartthings.com/login/auth\">https://graph.api.smartthings.com/login/auth</a></li>\n<li>Go to: `My locations` &gt; then click on your Hub</li>\n</ol>\n<p>This ensures that you're using the correct IDE location.</p>\n<h2>Device type handlers</h2>\n<h3>cast-web</h3>\n<ol>\n<li>Copy the device the device type handler’s groovy code from <a href=\"https://raw.githubusercontent.com/vervallsweg/smartthings/master/devicetypes/vervallsweg/cast-web.src/cast-web.groovy\" title=\"here\" target=\"_blank\" rel=\"noopener noreferrer\">here</a></li>\n<li>Open the Smartthings IDE and log in</li>\n<li>Go to: 'My Device Handlers' &gt; '+ Create New Device Handler' &gt; 'From Code'</li>\n<li>Paste the code from clipboard &gt; 'Create'</li>\n<li>Click 'Publish' &gt; 'For Me'</li>\n</ol>\n<div class=\"gallery\" contenteditable=\"false\" data-is-empty=\"false\" data-columns=\"5\">\n<figure class=\"gallery__item\"><a href=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step1.jpeg\" data-size=\"1439x747\"><img src=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step1-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step2.jpeg\" data-size=\"1440x746\"><img src=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step2-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step3.jpeg\" data-size=\"1440x747\"><img src=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step3-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step4.jpeg\" data-size=\"1440x746\"><img src=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step4-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step5.jpeg\" data-size=\"1440x749\"><img src=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step5-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n</div>\n<h3>cast-web-api</h3>\n<ol>\n<li>Copy the device the device type handler’s groovy code from <a href=\"https://raw.githubusercontent.com/vervallsweg/smartthings/master/devicetypes/vervallsweg/cast-web.src/cast-web.groovy\" title=\"here\" target=\"_blank\" rel=\"noopener noreferrer\">here</a></li>\n<li>Go to: 'My Device Handlers' &gt; '+ Create New Device Handler' &gt; 'From Code'</li>\n<li>Paste the code from clipboard &gt; 'Create'</li>\n<li>Click 'Publish' &gt; 'For Me'</li>\n</ol>\n<h2>Service manager</h2>\n<ol>\n<li>Copy the service manager’s groovy code from <a href=\"https://raw.githubusercontent.com/vervallsweg/smartthings/master/smartapps/vervallsweg/cast-web-service-manager.src/cast-web-service-manager.groovy\" title=\"here\" target=\"_blank\" rel=\"noopener noreferrer\">here</a></li>\n<li>Go to: 'My SmartApps' &gt; 'New SmartApp' &gt; 'From Code'</li>\n<li>Paste the code from clipboard &gt; 'Create'</li>\n<li>Click 'Publish' &gt; 'For Me'</li>\n</ol>\n<div class=\"gallery\" contenteditable=\"false\" data-is-empty=\"false\" data-columns=\"4\">\n<figure class=\"gallery__item\"><a href=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step1.jpeg\" data-size=\"1440x749\"><img src=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step1-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step2.jpeg\" data-size=\"1440x746\"><img src=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step2-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step3.jpeg\" data-size=\"1440x748\"><img src=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step3-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n<figure class=\"gallery__item\"><a href=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step4.jpeg\" data-size=\"1440x747\"><img src=\"https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step4-thumbnail.jpeg\" alt=\"\" width=\"240\" height=\"240\"></a></figure>\n</div>\n<p><a href=\"#INTERNAL_LINK#/post/6\" class=\"btn\" title=\"Previous\">Previous</a> <a href=\"#INTERNAL_LINK#/post/8\" class=\"btn\" title=\"Next\">Next</a></p>",
+            "image": "https://vervallsweg.github.io/cast-web/media/posts/7/",
+            "author": {
+                "name": "vervallsweg"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-05-22T17:54:37+02:00",
+            "date_modified": "2018-05-25T15:52:41+02:00"
+        },
+        {
+            "id": "https://vervallsweg.github.io/cast-web/installation-cast-web-api.html",
+            "url": "https://vervallsweg.github.io/cast-web/installation-cast-web-api.html",
+            "title": "Installation - cast-web-api",
+            "content_html": "<div class=\"ui one column grid\">\n<div class=\"column\">\n<div class=\"ui fluid ordered steps\" style=\"font-size: 0.75em;\">\n<div id=\"step1\" class=\"completed link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/1\" style=\"display: none;\" title=\"Step 1\">Step 1</a>\n<div class=\"content\">\n<div class=\"title\">Overview</div>\n<div class=\"description\">Learn what<br>you're installing</div>\n</div>\n</div>\n<div id=\"step2\" class=\"active link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/6\" style=\"display: none;\" title=\"Step 2\">Step 2</a>\n<div class=\"content\">\n<div class=\"title\">cast-web-api</div>\n<div class=\"description\">Install the bridge<br>on your network</div>\n</div>\n</div>\n<div id=\"step3\" class=\"link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/7\" style=\"display: none;\" title=\"Step 3\">Step 3</a>\n<div class=\"content\">\n<div class=\"title\">Device handler</div>\n<div class=\"description\">Install the 'drivers'<br>for Smartthings</div>\n</div>\n</div>\n<div id=\"step4\" class=\"link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/8\" style=\"display: none;\" title=\"Step 4\">Step 4</a>\n<div class=\"content\">\n<div class=\"title\">Done</div>\n<div class=\"description\">First steps</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"ui fluid accordion\">\n<div class=\"title\">\n<h2>Windows</h2>\n</div>\n<div class=\"content\">\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/64768bRCAxM?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<ol>\n<li>Download and install <a href=\"https://nodejs.org/en/download/\" target=\"_blank\" rel=\"noopener noreferrer\">node.js</a> (Windows Installer)</li>\n<li>Open the node.js command prompt</li>\n<li>run <code>npm install cast-web-api -g</code></li>\n<li>test by running <code>cast-web-api</code> </li>\n</ol>\n<p>After a couple of seconds you should see <code>cast-web-api running at http://{address:port}/</code></p>\n<p class=\"msg msg--highlight \">The API is now runnning. However it will stop running if you close the node.js command prompt window. To solve this you can run it in the background with an application called forever.</p>\n<br>\n<ol>\n<li>Close your current node.js command prompt window</li>\n<li>Open the node.js command prompt</li>\n<li>run <code>npm install forever -g</code></li>\n<li>run <code>cast-web-api --windows</code></li>\n<li>copy the directory of the previous command</li>\n</ol>\n<p class=\"msg msg--success\">Done! You can now start cast-web-api in the background and close the window afterwards.</p>\n<ol>\n<li>run <code>cd {the path you copied in step 5}</code></li>\n<li>to start, run <code>forever start cast-web-api</code></li>\n<li>to stop, run <code>forever stop cast-web-api</code></li>\n<li>to check if it's running, run <code>forever list</code></li>\n</ol>\n<p><a href=\"#INTERNAL_LINK#/post/1\" class=\"btn\" title=\"Previous\">Previous</a> <a href=\"#INTERNAL_LINK#/post/7\" class=\"btn\" title=\"Next\">Next</a></p>\n<hr></div>\n<div class=\"title\">\n<h2>macOS</h2>\n</div>\n<div class=\"content\">\n<p><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/BGQhgSaAM0k?rel=0\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen=\"allowfullscreen\"></iframe></p>\n<ol>\n<li>Download and install <a href=\"https://nodejs.org/en/download/\">node.js</a> (macOS installer)</li>\n<li>Open the terminal</li>\n<li>run <code>sudo npm install cast-web-api -g</code></li>\n<li>test by running <code>cast-web-api</code> </li>\n</ol>\n<p>After a couple of seconds you should see <code>cast-web-api running at http://{address:port}/</code></p>\n<p class=\"msg msg--highlight \">The API is now runnning. However it will stop running if you close the node.js command prompt window. To solve this you can run it in the background with an application called forever.</p>\n<ol>\n<li>Close your current terminal window</li>\n<li>Open the terminal again</li>\n<li>run <code>sudo npm install forever -g</code></li>\n</ol>\n<p class=\"msg msg--success\">Done! You can now start cast-web-api in the background and close the window afterwards.</p>\n<ul>\n<li>Start: <code>forever start `which cast-web-api`</code></li>\n<li>Stop: <code>forever stop `which cast-web-api`</code></li>\n<li>Check if it's running <code>forever list</code></li>\n</ul>\n<p><a href=\"#INTERNAL_LINK#/post/1\" class=\"btn\" title=\"Previous\">Previous</a> <a href=\"#INTERNAL_LINK#/post/7\" class=\"btn\" title=\"Next\">Next</a></p>\n</div>\n</div>",
+            "image": "https://vervallsweg.github.io/cast-web/media/posts/6/",
+            "author": {
+                "name": "vervallsweg"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-05-22T17:35:27+02:00",
+            "date_modified": "2018-05-25T15:44:52+02:00"
+        },
+        {
+            "id": "https://vervallsweg.github.io/cast-web/home.html",
+            "url": "https://vervallsweg.github.io/cast-web/home.html",
+            "title": "Home",
+            "content_html": "<div class=\"ui stackable grid container\" style=\"margin-top: 1rem;\">\n<div class=\"two wide column\"> </div>\n<div class=\"six wide column\" style=\"padding-left: 3em; padding-right: 3em;\"><img class=\"ui fluid image\" src=\"https://vervallsweg.github.io/cast-web/media/posts/5/ipad-test-image.png\"></div>\n<div class=\"six wide column\" style=\"display: flex; align-items: center;\">\n<div>\n<h2>Control your Google Cast devices</h2>\n<p>See what's currently playing pause, play, set the volume and more, all from the Smartthings app. Use your Google Cast device for automations through Smartthings. Quickly play your favourite content through presets.</p>\n</div>\n</div>\n<div class=\"two wide column\"> </div>\n</div>\n<div class=\"ui mobile reversed stackable grid container\">\n<div class=\"two wide column\"> </div>\n<div class=\"six wide column\" style=\"display: flex; align-items: center;\">\n<div>\n<h2>Audio notifications</h2>\n<p>Languages include Englisch, French, German, Italian, Spanish and many more. It can even resume the playback of a preset after an audio notification played. It can only play and resume DRM free content through presets.</p>\n</div>\n</div>\n<div class=\"six wide column\" style=\"display: flex; align-items: center; justify-content: center;\"><img class=\"ui fluid image\" src=\"https://vervallsweg.github.io/cast-web/media/posts/5/google-home.svg\"></div>\n<div class=\"two wide column\"> </div>\n</div>\n<div class=\"ui stackable grid container\">\n<div class=\"two wide column\"> </div>\n<div class=\"six wide column\"><img class=\"ui fluid image\" src=\"https://vervallsweg.github.io/cast-web/media/posts/5/cast-web-api-square.jpg\"></div>\n<div class=\"six wide column\" style=\"display: flex; align-items: center;\">\n<div>\n<h2>Just one device to setup</h2>\n<p>Requires a device on your network that runs node.js 24/7. You also need a Samsung Smartthings Hub and obviously Google Cast enabled devices.</p>\n</div>\n</div>\n<div class=\"two wide column\"> </div>\n</div>\n<div class=\"ui mobile reversed stackable grid container\">\n<div class=\"two wide column\"> </div>\n<div class=\"six wide column\" style=\"display: flex; align-items: center;\">\n<div>\n<h2>Free and open source</h2>\n<p>Build for the community, by the community.</p>\n</div>\n</div>\n<div class=\"six wide column\"><img class=\"ui fluid image\" src=\"https://vervallsweg.github.io/cast-web/media/posts/5/Octocat.jpg\"></div>\n<div class=\"two wide column\"> </div>\n</div>\n<div class=\"ui stackable grid container\">\n<div class=\"two wide column\"> </div>\n<div class=\"twelve wide column\" style=\"display: flex; align-items: center; justify-content: center; border-top: 1px solid #d5d8dc; padding-top: 0;\">\n<div><a href=\"#INTERNAL_LINK#/post/1\" class=\"btn\" title=\"Get started\" style=\"font-size: 1.3em; padding: .53333em 1.6em; border: 0.1em solid; margin: 8em 0;\">Get started</a></div>\n</div>\n<div class=\"two wide column\"> </div>\n</div>\n<script>// <![CDATA[\ndocument.querySelector('main').style.cssText = \"max-width:initial;\"; document.querySelector('section.hero').style.cssText = \"max-width: calc(38rem + 8%); margin: 0 auto; padding: 0 4%;\";\ndocument.querySelector('.category>article').style.cssText = 'border-bottom: none; margin-bottom: 0; padding-bottom: 0;';\ndocReady(function(){ document.querySelector('.footer').style.cssText = 'margin: 0;'; });\n// ]]></script>",
+            "image": "https://vervallsweg.github.io/cast-web/media/posts/5/",
+            "author": {
+                "name": "vervallsweg"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-05-22T16:05:45+02:00",
+            "date_modified": "2018-05-26T16:07:56+02:00"
+        },
+        {
+            "id": "https://vervallsweg.github.io/cast-web/Help.html",
+            "url": "https://vervallsweg.github.io/cast-web/Help.html",
+            "title": "Help",
+            "content_html": "<p>So, you have a problem with cast-web? Don't worry!</p>\n<p>First check the <a href=\"#INTERNAL_LINK#/post/11\" target=\"_blank\" rel=\"noopener noreferrer\">FAQ</a>.</p>\n<p>Then have a quick look at the <a href=\"https://community.smartthings.com/t/release-cast-web-0-2-chromecast-device-handler-smartapps/88038\" target=\"_blank\" rel=\"noopener noreferrer\">Smartthings community forum thread</a>.</p>\n<p>If you cannot find the answer there, just signup and ask your question on <a href=\"https://community.smartthings.com/t/release-cast-web-0-2-chromecast-device-handler-smartapps/88038\">the forum</a>.</p>\n<h2>Found a bug?</h2>\n<p>Just open an issue on the GitHub repo. Make sure that it's the right one. For the api go to cast-web-api for the DTH and Smartapp it's Smartthings.</p>",
+            "image": "https://vervallsweg.github.io/cast-web/media/posts/4/",
+            "author": {
+                "name": "vervallsweg"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-05-22T15:12:14+02:00",
+            "date_modified": "2018-05-25T17:28:38+02:00"
+        },
+        {
+            "id": "https://vervallsweg.github.io/cast-web/Blog.html",
+            "url": "https://vervallsweg.github.io/cast-web/Blog.html",
+            "title": "News",
+            "image": "https://vervallsweg.github.io/cast-web/media/posts/3/",
+            "author": {
+                "name": "vervallsweg"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-05-22T15:10:39+02:00",
+            "date_modified": "2018-05-22T15:12:51+02:00"
+        },
+        {
+            "id": "https://vervallsweg.github.io/cast-web/Updating.html",
+            "url": "https://vervallsweg.github.io/cast-web/Updating.html",
+            "title": "Updating",
+            "content_html": "<p class=\"msg msg--highlight \">If you're updating from a version below 1.x there's a catch. Read <a href=\"#INTERNAL_LINK#/post/9\">this article</a> first.</p>\n<h2>Stopping the API</h2>\n<p>If you're not using forever to run the API in the background, make sure to stop it manually. This guide is only applicable if you're using forever.</p>\n<ol>\n<li>Open the node.js command prompt (Windows), the terminal (macOS, linux)</li>\n<li>Type: <code>forever list</code></li>\n<li>For every cast-web-api procceses copy the `script` column</li>\n<li>Type: <code>forever stop {the script you just copied}</code></li>\n</ol>\n<h2>Updating cast-web-api</h2>\n<ol>\n<li>Open the node.js command prompt (Windows), the terminal (macOS, linux)</li>\n<li>Windows: <code>npm update cast-web-api -g</code> macOS, Linux: <code>sudo npm update cast-web-api -g</code></li>\n</ol>\n<p class=\"msg msg--success\">Done. You can now run it like you did before. Check the <a href=\"#INTERNAL_LINK#/post/6\">install guide</a> section covering forever if you're unsure.</p>\n<h2>Updating the device handlers and Service manager</h2>\n<p>This is really simple. Just follow the <a href=\"#INTERNAL_LINK#/post/7\">install instructions for DTHs and Service manager</a> again.</p>\n<p class=\"msg msg--highlight \">However don't create a new device handler, skip this step. Instead open the device handler (Service manager) you want to update in the IDE. Copy the source code from the matching link in the instructions and paste it into the already open device handler or Service manager. You're just overwriting the existing code, not creating a new device handler.</p>",
+            "image": "https://vervallsweg.github.io/cast-web/media/posts/2/",
+            "author": {
+                "name": "vervallsweg"
+            },
+            "tags": [
+            ],
+            "date_published": "2018-05-22T15:09:26+02:00",
+            "date_modified": "2018-05-25T16:17:30+02:00"
+        }
+    ]
+}
