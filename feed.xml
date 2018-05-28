@@ -3,7 +3,7 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2018-05-26T16:55:19+02:00</updated>
+    <updated>2018-05-28T15:14:07+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
@@ -71,7 +71,7 @@
         <link href="https://vervallsweg.github.io/cast-web/First-steps.html"/>
         <id>https://vervallsweg.github.io/cast-web/First-steps.html</id>
 
-        <updated>2018-05-25T15:10:02+02:00</updated>
+        <updated>2018-05-27T19:01:29+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -94,7 +94,7 @@
 <div id="step3" class="completed link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/7" style="display: none;" title="Step 3">Step 3</a>
 <div class="content">
 <div class="title">Device handler</div>
-<div class="description">Install the 'drivers'<br>for Smartthings</div>
+<div class="description">Install the 'drivers'<br>for SmartThings</div>
 </div>
 </div>
 <div id="step4" class="active link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/8" style="display: none;" title="Step 4">Step 4</a>
@@ -108,8 +108,8 @@
 </div>
 <h2>Adding your devices</h2>
 <ol>
-<li>Open your Smartthings mobile app</li>
-<li>Go to: 'Marketplace' &gt; 'Smartapps' &gt; '+ My Apps' &gt; Google Cast web - service manager</li>
+<li>Open your SmartThings mobile app</li>
+<li>Go to: 'Marketplace' &gt; 'Smartapps' &gt; '+ My Apps' &gt; Cast web - service manager</li>
 <li>Enter your cast-web-api address (displayed on startup of the API)</li>
 <li>Tap 'Discover devices'</li>
 <li>Select your devices and click 'Done'</li>
@@ -118,7 +118,7 @@
 <h2>Settings</h2>
 <p>Every device has two different settings menus</p>
 <h3>Device page settings</h3>
-<p>In your Smartthings app, every cast-web device has a settings wheel in the top right corner. This is where you find all device settings.</p>
+<p>In your SmartThings app, every cast-web device has a settings wheel in the top right corner. This is where you find all device settings.</p>
 <h3>Service manager settings</h3>
 <p>Open the Service manager and tap any device's name. You can change the API address here and set/edit your presets.</p>
 <p><a href="#INTERNAL_LINK#/post/6" class="btn" title="Previous">Previous</a></p>
@@ -133,7 +133,7 @@
         <link href="https://vervallsweg.github.io/cast-web/Installation-service-manager-and-device-type.html"/>
         <id>https://vervallsweg.github.io/cast-web/Installation-service-manager-and-device-type.html</id>
 
-        <updated>2018-05-25T15:52:41+02:00</updated>
+        <updated>2018-05-27T19:00:10+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -156,7 +156,7 @@
 <div id="step3" class="active link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/7" style="display: none;" title="Step 3">Step 3</a>
 <div class="content">
 <div class="title">Device handler</div>
-<div class="description">Install the 'drivers'<br>for Smartthings</div>
+<div class="description">Install the 'drivers'<br>for SmartThings</div>
 </div>
 </div>
 <div id="step4" class="link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/8" style="display: none;" title="Step 4">Step 4</a>
@@ -168,7 +168,7 @@
 </div>
 </div>
 </div>
-<h2>Open the Smartthings IDE</h2>
+<h2>Open the SmartThings IDE</h2>
 <ol>
 <li>Go to <a href="https://graph.api.smartthings.com/login/auth">https://graph.api.smartthings.com/login/auth</a></li>
 <li>Go to: `My locations` &gt; then click on your Hub</li>
@@ -178,7 +178,7 @@
 <h3>cast-web</h3>
 <ol>
 <li>Copy the device the device type handler’s groovy code from <a href="https://raw.githubusercontent.com/vervallsweg/smartthings/master/devicetypes/vervallsweg/cast-web.src/cast-web.groovy" title="here" target="_blank" rel="noopener noreferrer">here</a></li>
-<li>Open the Smartthings IDE and log in</li>
+<li>Open the SmartThings IDE and log in</li>
 <li>Go to: 'My Device Handlers' &gt; '+ Create New Device Handler' &gt; 'From Code'</li>
 <li>Paste the code from clipboard &gt; 'Create'</li>
 <li>Click 'Publish' &gt; 'For Me'</li>
@@ -222,7 +222,7 @@
         <link href="https://vervallsweg.github.io/cast-web/installation-cast-web-api.html"/>
         <id>https://vervallsweg.github.io/cast-web/installation-cast-web-api.html</id>
 
-        <updated>2018-05-25T15:44:52+02:00</updated>
+        <updated>2018-05-27T19:00:24+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -245,7 +245,7 @@
 <div id="step3" class="link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/7" style="display: none;" title="Step 3">Step 3</a>
 <div class="content">
 <div class="title">Device handler</div>
-<div class="description">Install the 'drivers'<br>for Smartthings</div>
+<div class="description">Install the 'drivers'<br>for SmartThings</div>
 </div>
 </div>
 <div id="step4" class="link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/8" style="display: none;" title="Step 4">Step 4</a>
@@ -326,18 +326,18 @@
         <link href="https://vervallsweg.github.io/cast-web/home.html"/>
         <id>https://vervallsweg.github.io/cast-web/home.html</id>
 
-        <updated>2018-05-26T16:07:56+02:00</updated>
+        <updated>2018-05-28T15:09:00+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                     <img src="https://vervallsweg.github.io/cast-web/media/posts/5/" alt="" />
                 <div class="ui stackable grid container" style="margin-top: 1rem;">
 <div class="two wide column"> </div>
-<div class="six wide column" style="padding-left: 3em; padding-right: 3em;"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/ipad-test-image.png"></div>
+<div class="six wide column" style="padding-left: 3em; padding-right: 3em;"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/devicesOverwievX2.jpg"></div>
 <div class="six wide column" style="display: flex; align-items: center;">
 <div>
 <h2>Control your Google Cast devices</h2>
-<p>See what's currently playing pause, play, set the volume and more, all from the Smartthings app. Use your Google Cast device for automations through Smartthings. Quickly play your favourite content through presets.</p>
+<p>See what's currently playing pause, play, set the volume and more, all from the SmartThings app. Use your Google Cast device for automations through SmartThings. Quickly play your favourite content through presets.</p>
 </div>
 </div>
 <div class="two wide column"> </div>
@@ -350,7 +350,9 @@
 <p>Languages include Englisch, French, German, Italian, Spanish and many more. It can even resume the playback of a preset after an audio notification played. It can only play and resume DRM free content through presets.</p>
 </div>
 </div>
-<div class="six wide column" style="display: flex; align-items: center; justify-content: center;"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/google-home.svg"></div>
+<div class="six wide column" style="display: flex; align-items: center; justify-content: center;">
+<div id="audio-notification"> </div>
+<img id="audio-notification-img" class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/google-home.svg"></div>
 <div class="two wide column"> </div>
 </div>
 <div class="ui stackable grid container">
@@ -359,7 +361,7 @@
 <div class="six wide column" style="display: flex; align-items: center;">
 <div>
 <h2>Just one device to setup</h2>
-<p>Requires a device on your network that runs node.js 24/7. You also need a Samsung Smartthings Hub and obviously Google Cast enabled devices.</p>
+<p>Requires a device on your network that runs node.js 24/7. You also need a SamsungSmartThings Hub and Google Cast enabled devices.</p>
 </div>
 </div>
 <div class="two wide column"> </div>
@@ -369,7 +371,7 @@
 <div class="six wide column" style="display: flex; align-items: center;">
 <div>
 <h2>Free and open source</h2>
-<p>Build for the community, by the community.</p>
+<p>Built for the community, by the community.</p>
 </div>
 </div>
 <div class="six wide column"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/Octocat.jpg"></div>
@@ -398,17 +400,17 @@ docReady(function(){ document.querySelector('.footer').style.cssText = 'margin: 
         <link href="https://vervallsweg.github.io/cast-web/Help.html"/>
         <id>https://vervallsweg.github.io/cast-web/Help.html</id>
 
-        <updated>2018-05-25T17:28:38+02:00</updated>
+        <updated>2018-05-27T19:02:43+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                     <img src="https://vervallsweg.github.io/cast-web/media/posts/4/" alt="" />
                 <p>So, you have a problem with cast-web? Don't worry!</p>
 <p>First check the <a href="#INTERNAL_LINK#/post/11" target="_blank" rel="noopener noreferrer">FAQ</a>.</p>
-<p>Then have a quick look at the <a href="https://community.smartthings.com/t/release-cast-web-0-2-chromecast-device-handler-smartapps/88038" target="_blank" rel="noopener noreferrer">Smartthings community forum thread</a>.</p>
+<p>Then have a quick look at the <a href="https://community.smartthings.com/t/release-cast-web-0-2-chromecast-device-handler-smartapps/88038" target="_blank" rel="noopener noreferrer">SmartThings community forum thread</a>.</p>
 <p>If you cannot find the answer there, just signup and ask your question on <a href="https://community.smartthings.com/t/release-cast-web-0-2-chromecast-device-handler-smartapps/88038">the forum</a>.</p>
 <h2>Found a bug?</h2>
-<p>Just open an issue on the GitHub repo. Make sure that it's the right one. For the api go to cast-web-api for the DTH and Smartapp it's Smartthings.</p>
+<p>Just open an issue on the GitHub repo. Make sure that it's the right one. For the api go to cast-web-api for the DTH and Smartapp it's smartthings.</p>
             ]]>
         </content>
     </entry>
