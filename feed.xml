@@ -3,7 +3,7 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2018-05-28T15:14:07+02:00</updated>
+    <updated>2018-05-28T18:09:56+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
@@ -326,7 +326,7 @@
         <link href="https://vervallsweg.github.io/cast-web/home.html"/>
         <id>https://vervallsweg.github.io/cast-web/home.html</id>
 
-        <updated>2018-05-28T15:09:00+02:00</updated>
+        <updated>2018-05-28T18:08:02+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -337,44 +337,67 @@
 <div class="six wide column" style="display: flex; align-items: center;">
 <div>
 <h2>Control your Google Cast devices</h2>
-<p>See what's currently playing pause, play, set the volume and more, all from the SmartThings app. Use your Google Cast device for automations through SmartThings. Quickly play your favourite content through presets.</p>
+<p>See what's currently playing pause, play, set the volume and more, all from the SmartThings app. Quickly play your favourite content through presets.</p>
 </div>
 </div>
 <div class="two wide column"> </div>
 </div>
-<div class="ui mobile reversed stackable grid container">
+<div class="ui mobile reversed stackable grid container" style="margin-bottom: 10em; margin-top: 4em;">
 <div class="two wide column"> </div>
+<div class="six wide column" style="display: flex; align-items: center;">
+<div>
+<h2>Automate through SmartThings</h2>
+<p>Use your Cast devices in Routines, Scenes, webCore and any other compatible Smartapp.</p>
+</div>
+</div>
+<div class="six wide column" style="display: flex; align-items: center;">
+<div style="margin-top: calc(2.4rem + 1vw);">
+<div id="automate-first" class="ui compact secondary segment transition hidden">
+<div>Play WKRB on my Chromecast audio when I come home</div>
+</div>
+<div class="ui compact secondary segment transition hidden">
+<div>Set my Google Home's volume to 10% when home mode changes to night</div>
+</div>
+<div class="ui compact secondary segment transition hidden">
+<div>Announce the weather forecast on my Chromecast at 8am</div>
+</div>
+</div>
+</div>
+<div class="two wide column"> </div>
+</div>
+<div class="ui stackable grid container">
+<div class="two wide column"> </div>
+<div class="six wide column" style="display: flex; align-items: center; justify-content: center;">
+<div id="audio-notification"> </div>
+<img id="audio-notification-img" class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/google-home.svg"></div>
 <div class="six wide column" style="display: flex; align-items: center;">
 <div>
 <h2>Audio notifications</h2>
 <p>Languages include Englisch, French, German, Italian, Spanish and many more. It can even resume the playback of a preset after an audio notification played. It can only play and resume DRM free content through presets.</p>
 </div>
 </div>
-<div class="six wide column" style="display: flex; align-items: center; justify-content: center;">
-<div id="audio-notification"> </div>
-<img id="audio-notification-img" class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/google-home.svg"></div>
-<div class="two wide column"> </div>
-</div>
-<div class="ui stackable grid container">
-<div class="two wide column"> </div>
-<div class="six wide column"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/cast-web-api-square.jpg"></div>
-<div class="six wide column" style="display: flex; align-items: center;">
-<div>
-<h2>Just one device to setup</h2>
-<p>Requires a device on your network that runs node.js 24/7. You also need a SamsungSmartThings Hub and Google Cast enabled devices.</p>
-</div>
-</div>
 <div class="two wide column"> </div>
 </div>
 <div class="ui mobile reversed stackable grid container">
 <div class="two wide column"> </div>
 <div class="six wide column" style="display: flex; align-items: center;">
 <div>
+<h2>Just one device to setup</h2>
+<p>Requires a device on your network that runs node.js 24/7. You also need a SamsungSmartThings Hub and Google Cast enabled devices.</p>
+</div>
+</div>
+<div class="six wide column"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/cast-web-api-square.jpg"></div>
+<div class="two wide column"> </div>
+</div>
+<div class="ui mobile reversed stackable grid container" style="margin-bottom: 5em;">
+<div class="two wide column"> </div>
+<div class="six wide column"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/Octocat.jpg"></div>
+<div class="six wide column" style="display: flex; align-items: center;">
+<div>
 <h2>Free and open source</h2>
 <p>Built for the community, by the community.</p>
 </div>
 </div>
-<div class="six wide column"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/Octocat.jpg"></div>
 <div class="two wide column"> </div>
 </div>
 <div class="ui stackable grid container">
