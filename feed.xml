@@ -3,7 +3,7 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2018-05-28T18:16:40+02:00</updated>
+    <updated>2018-05-28T18:47:12+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
@@ -326,7 +326,7 @@
         <link href="https://vervallsweg.github.io/cast-web/home.html"/>
         <id>https://vervallsweg.github.io/cast-web/home.html</id>
 
-        <updated>2018-05-28T18:14:24+02:00</updated>
+        <updated>2018-05-28T18:27:24+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -389,7 +389,7 @@
 <div class="six wide column"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/cast-web-api-square.jpg"></div>
 <div class="two wide column"> </div>
 </div>
-<div class="ui mobile reversed stackable grid container" style="margin-bottom: 5em;">
+<div class="ui stackable grid container" style="margin-bottom: 5em;">
 <div class="two wide column"> </div>
 <div class="six wide column"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/Octocat.jpg"></div>
 <div class="six wide column" style="display: flex; align-items: center;">
