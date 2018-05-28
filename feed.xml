@@ -3,7 +3,7 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2018-05-28T18:09:56+02:00</updated>
+    <updated>2018-05-28T18:16:40+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
@@ -326,7 +326,7 @@
         <link href="https://vervallsweg.github.io/cast-web/home.html"/>
         <id>https://vervallsweg.github.io/cast-web/home.html</id>
 
-        <updated>2018-05-28T18:08:02+02:00</updated>
+        <updated>2018-05-28T18:14:24+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -403,7 +403,7 @@
 <div class="ui stackable grid container">
 <div class="two wide column"> </div>
 <div class="twelve wide column" style="display: flex; align-items: center; justify-content: center; border-top: 1px solid #d5d8dc; padding-top: 0;">
-<div><a href="#INTERNAL_LINK#/post/1" class="btn" title="Get started" style="font-size: 1.3em; padding: .53333em 1.6em; border: 0.1em solid; margin: 8em 0;">Get started</a></div>
+<div><a id="go-btn" href="#INTERNAL_LINK#/post/1" class="btn" title="Get started" style="font-size: 1.3em; padding: .53333em 1.6em; border: 0.1em solid; margin: 8em 0;">Get started</a></div>
 </div>
 <div class="two wide column"> </div>
 </div>
