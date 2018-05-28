@@ -3,27 +3,80 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2018-05-28T18:47:12+02:00</updated>
+    <updated>2018-05-29T01:19:47+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
     <id>https://vervallsweg.github.io/cast-web</id>
 
     <entry>
-        <title>FAQ</title>
+        <title>How do I use the preset generator?</title>
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/FAQ.html"/>
-        <id>https://vervallsweg.github.io/cast-web/FAQ.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/How-do-I-use-the-preset-generator.html"/>
+        <id>https://vervallsweg.github.io/cast-web/How-do-I-use-the-preset-generator.html</id>
+            <category term="FAQ"/>
 
-        <updated>2018-05-25T17:38:49+02:00</updated>
+        <updated>2018-05-28T19:57:22+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://vervallsweg.github.io/cast-web/media/posts/11/" alt="" />
-                <p>Coming soon.</p>
-<p>Still got questions? Check <a href="#INTERNAL_LINK#/post/4">help</a>.</p>
+                    <img src="https://vervallsweg.github.io/cast-web/media/posts/14/" alt="" />
+                Coming soon.
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>What can I play through presets?</title>
+        <author>
+            <name>vervallsweg</name>
+        </author>
+        <link href="https://vervallsweg.github.io/cast-web/What-can-I-play-through-presets.html"/>
+        <id>https://vervallsweg.github.io/cast-web/What-can-I-play-through-presets.html</id>
+            <category term="FAQ"/>
+
+        <updated>2018-05-28T19:55:48+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://vervallsweg.github.io/cast-web/media/posts/13/" alt="" />
+                <p>Only DRM free content. Probably not what you want your fancy internet connected speaker to play.</p>
+<h2>What is DRM free content?</h2>
+<p>Everything you can get a direct file link to. It needs to be without a login, hosted on the internet or your local network.</p>
+<p>This excludes most streaming services like Netflix or Spotify, since you cannot get a direct link (.mp3/4) and have to log in.</p>
+<p>However most radio stations have direct links and don't need a login.</p>
+<h2>What formats are supported?</h2>
+<p> </p>
+<p>Almost every major format is supported. A <a href="https://developers.google.com/cast/docs/media#media-type-strings" target="_blank" rel="noopener noreferrer">full list</a> is available by Google.</p>
+<h2>How do I create presets?</h2>
+<p>Use the <a href="https://vervallsweg.github.io/smartthings/cast-web-preset-generator/preset-generator.html" target="_blank" rel="noopener noreferrer">preset generator</a>. A guide is available.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Contribute</title>
+        <author>
+            <name>vervallsweg</name>
+        </author>
+        <link href="https://vervallsweg.github.io/cast-web/Contribute.html"/>
+        <id>https://vervallsweg.github.io/cast-web/Contribute.html</id>
+
+        <updated>2018-05-28T19:27:43+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://vervallsweg.github.io/cast-web/media/posts/12/" alt="" />
+                <p>All of the source code is available on GitHub under GPL3.</p>
+<ul>
+<li><a href="https://github.com/vervallsweg/cast-web-api" target="_blank" rel="noopener noreferrer">cast-web-api</a></li>
+<li><a href="https://github.com/vervallsweg/smartthings" target="_blank" rel="noopener noreferrer">smartthings</a></li>
+</ul>
+<h2>Beta versions</h2>
+<p>Every new release is developed in a new branch with the corrseponding version number. Please note that new versions of the DTH and Smartapps are released individually.</p>
+<h2>Pull requests</h2>
+<p>PRs are always appreciated. Just watch out for any new version branch and avoid 'master' as a base for your PR.</p>
+<h2> </h2>
             ]]>
         </content>
     </entry>
@@ -54,12 +107,31 @@
         <id>https://vervallsweg.github.io/cast-web/First-blog-post.html</id>
             <category term="News"/>
 
-        <updated>2018-05-25T16:16:49+02:00</updated>
+        <updated>2018-05-29T01:10:05+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                     <img src="https://vervallsweg.github.io/cast-web/media/posts/9/" alt="" />
-                Hello world.
+                <p>Hey,</p>
+<p>if you're reading this, you're probably using cast-web for quite some time now. First off, I want to thank you. Feedback and participation from people like you have helped shape this project significantly. Version 1 is a significant step forward and adds some of the most requested features.</p>
+<p>It finally doesn't have to poll your device every x seconds. It basically works like push notifications on your phone now. Or in Google Cast terms, it's as fast as the Google Home app. You can now cast stuff from your phone and the second you press the volume button on your phone, ST will display the new volume. This is quite impressive considering that every packet goes through two hops before arriving on your phone.</p>
+<p>We also have voice notifications in multiple languages and with a Google voice now. You can finally resume a preset after your notification, you can even queue up multiple stations/songs/videos that will play one after the other. There're so many new features and so many more to come. Just try it yourself!</p>
+<h2>The bad stuff</h2>
+<p>You'll have to remove all of your cast-web devices from SmartThings.</p>
+<p>That's the worst part. V1 brings an architectural change that in ST can only be achieved on install. Every cast-web device is now the parent of a cast-web-api device. Existing devices cannot be 'moved' to a parent device.</p>
+<p class="msg msg--info">I want to point out here, that you don't need to upgrade. Every old version is going to continue to work fine. V1 brings a lot of new features, it is wicked fast, but the older versions are not going away. This is the advantage of having a local installation, you choose when to update or whether at all.</p>
+<h2>How to update</h2>
+<ol>
+<li>Note down how your cast devices are currently used (what to restore after reinstall) and copy your preset objects if you use them</li>
+<li>Remove all cast-web devices. You can try to directly remove the SM, but this often fails with a weird error message.</li>
+<li>Remove the Service manager</li>
+<li>Stop the cast-web-api</li>
+<li>Follow the new <a href="#INTERNAL_LINK#/post/1">install instructions</a></li>
+</ol>
+<p class="msg msg--highlight ">Keep in mind that you now have to install two DTHs 'cast-web-device' (formerly cast-web) and a DTH called 'cast-web-api'. This will show up in ST as a device after install.</p>
+<h2>What happend to group-sync?</h2>
+<p>It's now redundant. The API now automatically detects groups, connects to their members and syncs the playback.</p>
+<p>If you want to level the volume on a group, just add the group to ST and set the volume twice. Setting the volume once, for example to 20%, will set the volume on the group. If the volume is already at 20%, it will level all other members to 20% as well. Just tap the volume slider a second time.</p>
             ]]>
         </content>
     </entry>
@@ -133,7 +205,7 @@
         <link href="https://vervallsweg.github.io/cast-web/Installation-service-manager-and-device-type.html"/>
         <id>https://vervallsweg.github.io/cast-web/Installation-service-manager-and-device-type.html</id>
 
-        <updated>2018-05-27T19:00:10+02:00</updated>
+        <updated>2018-05-29T01:11:28+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -175,7 +247,7 @@
 </ol>
 <p>This ensures that you're using the correct IDE location.</p>
 <h2>Device type handlers</h2>
-<h3>cast-web</h3>
+<h3>cast-web-device</h3>
 <ol>
 <li>Copy the device the device type handler’s groovy code from <a href="https://raw.githubusercontent.com/vervallsweg/smartthings/master/devicetypes/vervallsweg/cast-web.src/cast-web.groovy" title="here" target="_blank" rel="noopener noreferrer">here</a></li>
 <li>Open the SmartThings IDE and log in</li>
@@ -326,7 +398,7 @@
         <link href="https://vervallsweg.github.io/cast-web/home.html"/>
         <id>https://vervallsweg.github.io/cast-web/home.html</id>
 
-        <updated>2018-05-28T18:27:24+02:00</updated>
+        <updated>2018-05-28T20:01:44+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -342,7 +414,7 @@
 </div>
 <div class="two wide column"> </div>
 </div>
-<div class="ui mobile reversed stackable grid container" style="margin-bottom: 10em; margin-top: 4em;">
+<div class="ui mobile reversed stackable grid container">
 <div class="two wide column"> </div>
 <div class="six wide column" style="display: flex; align-items: center;">
 <div>
@@ -351,7 +423,7 @@
 </div>
 </div>
 <div class="six wide column" style="display: flex; align-items: center;">
-<div style="margin-top: calc(2.4rem + 1vw);">
+<div style="margin: 5em 0;">
 <div id="automate-first" class="ui compact secondary segment transition hidden">
 <div>Play WKRB on my Chromecast audio when I come home</div>
 </div>
@@ -373,7 +445,7 @@
 <div class="six wide column" style="display: flex; align-items: center;">
 <div>
 <h2>Audio notifications</h2>
-<p>Languages include Englisch, French, German, Italian, Spanish and many more. It can even resume the playback of a preset after an audio notification played. It can only play and resume DRM free content through presets.</p>
+<p>Languages include Englisch, French, German, Italian, Spanish and many more. It can even resume the playback of a preset after an audio notification played. It can only play and resume <a href="#INTERNAL_LINK#/post/13" target="_blank" rel="noopener noreferrer">DRM free</a> content through presets.</p>
 </div>
 </div>
 <div class="two wide column"> </div>
@@ -383,7 +455,7 @@
 <div class="six wide column" style="display: flex; align-items: center;">
 <div>
 <h2>Just one device to setup</h2>
-<p>Requires a device on your network that runs node.js 24/7. You also need a SamsungSmartThings Hub and Google Cast enabled devices.</p>
+<p>Requires a device on your network that runs node.js 24/7. You also need a SamsungSmartThings Hub and Chromecast compatible (Google Cast) devices.</p>
 </div>
 </div>
 <div class="six wide column"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/cast-web-api-square.jpg"></div>
@@ -395,7 +467,7 @@
 <div class="six wide column" style="display: flex; align-items: center;">
 <div>
 <h2>Free and open source</h2>
-<p>Built for the community, by the community.</p>
+<p>Built for the community, by the community.<br><a href="#INTERNAL_LINK#/post/12">Contribute</a></p>
 </div>
 </div>
 <div class="two wide column"> </div>
@@ -423,63 +495,17 @@ docReady(function(){ document.querySelector('.footer').style.cssText = 'margin: 
         <link href="https://vervallsweg.github.io/cast-web/Help.html"/>
         <id>https://vervallsweg.github.io/cast-web/Help.html</id>
 
-        <updated>2018-05-27T19:02:43+02:00</updated>
+        <updated>2018-05-28T19:56:13+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                     <img src="https://vervallsweg.github.io/cast-web/media/posts/4/" alt="" />
                 <p>So, you have a problem with cast-web? Don't worry!</p>
-<p>First check the <a href="#INTERNAL_LINK#/post/11" target="_blank" rel="noopener noreferrer">FAQ</a>.</p>
+<p>First check the <a href="#INTERNAL_LINK#/tag/2">FAQ</a>.</p>
 <p>Then have a quick look at the <a href="https://community.smartthings.com/t/release-cast-web-0-2-chromecast-device-handler-smartapps/88038" target="_blank" rel="noopener noreferrer">SmartThings community forum thread</a>.</p>
 <p>If you cannot find the answer there, just signup and ask your question on <a href="https://community.smartthings.com/t/release-cast-web-0-2-chromecast-device-handler-smartapps/88038">the forum</a>.</p>
 <h2>Found a bug?</h2>
 <p>Just open an issue on the GitHub repo. Make sure that it's the right one. For the api go to cast-web-api for the DTH and Smartapp it's smartthings.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>News</title>
-        <author>
-            <name>vervallsweg</name>
-        </author>
-        <link href="https://vervallsweg.github.io/cast-web/Blog.html"/>
-        <id>https://vervallsweg.github.io/cast-web/Blog.html</id>
-
-        <updated>2018-05-22T15:12:51+02:00</updated>
-            <summary></summary>
-        <content></content>
-    </entry>
-    <entry>
-        <title>Updating</title>
-        <author>
-            <name>vervallsweg</name>
-        </author>
-        <link href="https://vervallsweg.github.io/cast-web/Updating.html"/>
-        <id>https://vervallsweg.github.io/cast-web/Updating.html</id>
-
-        <updated>2018-05-25T16:17:30+02:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://vervallsweg.github.io/cast-web/media/posts/2/" alt="" />
-                <p class="msg msg--highlight ">If you're updating from a version below 1.x there's a catch. Read <a href="#INTERNAL_LINK#/post/9">this article</a> first.</p>
-<h2>Stopping the API</h2>
-<p>If you're not using forever to run the API in the background, make sure to stop it manually. This guide is only applicable if you're using forever.</p>
-<ol>
-<li>Open the node.js command prompt (Windows), the terminal (macOS, linux)</li>
-<li>Type: <code>forever list</code></li>
-<li>For every cast-web-api procceses copy the `script` column</li>
-<li>Type: <code>forever stop {the script you just copied}</code></li>
-</ol>
-<h2>Updating cast-web-api</h2>
-<ol>
-<li>Open the node.js command prompt (Windows), the terminal (macOS, linux)</li>
-<li>Windows: <code>npm update cast-web-api -g</code> macOS, Linux: <code>sudo npm update cast-web-api -g</code></li>
-</ol>
-<p class="msg msg--success">Done. You can now run it like you did before. Check the <a href="#INTERNAL_LINK#/post/6">install guide</a> section covering forever if you're unsure.</p>
-<h2>Updating the device handlers and Service manager</h2>
-<p>This is really simple. Just follow the <a href="#INTERNAL_LINK#/post/7">install instructions for DTHs and Service manager</a> again.</p>
-<p class="msg msg--highlight ">However don't create a new device handler, skip this step. Instead open the device handler (Service manager) you want to update in the IDE. Copy the source code from the matching link in the instructions and paste it into the already open device handler or Service manager. You're just overwriting the existing code, not creating a new device handler.</p>
             ]]>
         </content>
     </entry>
