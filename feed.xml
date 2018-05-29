@@ -3,7 +3,7 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2018-05-29T23:21:31+02:00</updated>
+    <updated>2018-05-29T23:23:36+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
@@ -201,7 +201,7 @@
         <link href="https://vervallsweg.github.io/cast-web/First-steps.html"/>
         <id>https://vervallsweg.github.io/cast-web/First-steps.html</id>
 
-        <updated>2018-05-29T23:19:22+02:00</updated>
+        <updated>2018-05-29T23:23:27+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -245,7 +245,7 @@
 <li>Select your devices and click 'Done'</li>
 </ol>
 <p class="msg msg--success">Done! Your devices should show up on the Smartapps main page and your SmartThings app.</p>
-<p>If you have any questions or need help, check out the <a href="#INTERNAL_LINK#/post/4">help section</a> and also consider <a href="#INTERNAL_LINK#/post/15" target="_blank" rel="noopener noreferrer">donating</a> if you like this project.</p>
+<p>If you have any questions or need help, check out the <a href="#INTERNAL_LINK#/post/4">help section</a> and also consider <a href="https://vervallsweg.github.io/cast-web/donate.html" target="_blank" rel="noopener noreferrer">donating</a> if you like this project.</p>
 <h2>Settings</h2>
 <p>Every device has two different settings menus</p>
 <h3>Device page settings</h3>
