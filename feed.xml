@@ -3,12 +3,36 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2018-05-29T01:30:48+02:00</updated>
+    <updated>2018-05-29T02:20:29+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
     <id>https://vervallsweg.github.io/cast-web</id>
 
+    <entry>
+        <title>Donate</title>
+        <author>
+            <name>vervallsweg</name>
+        </author>
+        <link href="https://vervallsweg.github.io/cast-web/donate.html"/>
+        <id>https://vervallsweg.github.io/cast-web/donate.html</id>
+
+        <updated>2018-05-29T02:17:50+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://vervallsweg.github.io/cast-web/media/posts/15/" alt="" />
+                <p>What started as a private DIY project has now turned into a really capable, stable and widely used project.</p>
+<p>cast-web is mainly maintained by one person, me vervallsweg. This is not what I do for a living, but the workload of this project often comes pretty close. If you like cast-web please consider donating, it helps me as a student pay my bills and dedicate more of my time towards this project.</p>
+<p>This project is add free, not behind a paywall, completly free and open source. Please help to keep it the way it is.</p>
+<p>Thank you.</p>
+<p><a href="https://www.paypal.me/vervallsweg" title=" " id="donate" class="btn" style="font-size: 1.5em;"> </a> </p>
+<script>// <![CDATA[
+	document.querySelector('a#donate').innerHTML = '<i class="icon paypal" style="margin:0;"></i>';
+// ]]></script>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How do I use the preset generator?</title>
         <author>
@@ -484,28 +508,6 @@ document.querySelector('main').style.cssText = "max-width:initial;"; document.qu
 document.querySelector('.category>article').style.cssText = 'border-bottom: none; margin-bottom: 0; padding-bottom: 0;';
 docReady(function(){ document.querySelector('.footer').style.cssText = 'margin: 0;'; });
 // ]]></script>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Help</title>
-        <author>
-            <name>vervallsweg</name>
-        </author>
-        <link href="https://vervallsweg.github.io/cast-web/Help.html"/>
-        <id>https://vervallsweg.github.io/cast-web/Help.html</id>
-
-        <updated>2018-05-28T19:56:13+02:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://vervallsweg.github.io/cast-web/media/posts/4/" alt="" />
-                <p>So, you have a problem with cast-web? Don't worry!</p>
-<p>First check the <a href="#INTERNAL_LINK#/tag/2">FAQ</a>.</p>
-<p>Then have a quick look at the <a href="https://community.smartthings.com/t/release-cast-web-0-2-chromecast-device-handler-smartapps/88038" target="_blank" rel="noopener noreferrer">SmartThings community forum thread</a>.</p>
-<p>If you cannot find the answer there, just signup and ask your question on <a href="https://community.smartthings.com/t/release-cast-web-0-2-chromecast-device-handler-smartapps/88038">the forum</a>.</p>
-<h2>Found a bug?</h2>
-<p>Just open an issue on the GitHub repo. Make sure that it's the right one. For the api go to cast-web-api for the DTH and Smartapp it's smartthings.</p>
             ]]>
         </content>
     </entry>
