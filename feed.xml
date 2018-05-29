@@ -3,12 +3,47 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2018-05-29T02:20:29+02:00</updated>
+    <updated>2018-05-29T23:21:31+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
     <id>https://vervallsweg.github.io/cast-web</id>
 
+    <entry>
+        <title>Roadmap for version 1.1</title>
+        <author>
+            <name>vervallsweg</name>
+        </author>
+        <link href="https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1.html"/>
+        <id>https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1.html</id>
+            <category term="Roadmap"/>
+
+        <updated>2018-05-29T13:28:25+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://vervallsweg.github.io/cast-web/media/posts/17/" alt="" />
+                TBA.
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Request a feature</title>
+        <author>
+            <name>vervallsweg</name>
+        </author>
+        <link href="https://vervallsweg.github.io/cast-web/Request-a-feature.html"/>
+        <id>https://vervallsweg.github.io/cast-web/Request-a-feature.html</id>
+
+        <updated>2018-05-29T13:15:54+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://vervallsweg.github.io/cast-web/media/posts/16/" alt="" />
+                <iframe width="100%" height="1000px" src="https://docs.google.com/forms/d/e/1FAIpQLSe3MkdvLfJ1EoMnSS7xSQIR6YedbKt3DVIKqizuHJ8X9bp1Gg/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Donate</title>
         <author>
@@ -83,10 +118,10 @@
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/Contribute.html"/>
-        <id>https://vervallsweg.github.io/cast-web/Contribute.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/contribute.html"/>
+        <id>https://vervallsweg.github.io/cast-web/contribute.html</id>
 
-        <updated>2018-05-28T19:27:43+02:00</updated>
+        <updated>2018-05-29T10:52:54+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -100,7 +135,6 @@
 <p>Every new release is developed in a new branch with the corrseponding version number. Please note that new versions of the DTH and Smartapps are released individually.</p>
 <h2>Pull requests</h2>
 <p>PRs are always appreciated. Just watch out for any new version branch and avoid 'master' as a base for your PR.</p>
-<h2> </h2>
             ]]>
         </content>
     </entry>
@@ -167,7 +201,7 @@
         <link href="https://vervallsweg.github.io/cast-web/First-steps.html"/>
         <id>https://vervallsweg.github.io/cast-web/First-steps.html</id>
 
-        <updated>2018-05-27T19:01:29+02:00</updated>
+        <updated>2018-05-29T23:19:22+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -210,7 +244,8 @@
 <li>Tap 'Discover devices'</li>
 <li>Select your devices and click 'Done'</li>
 </ol>
-<p>After you added your devices, they should show up on the Smartapps main page.</p>
+<p class="msg msg--success">Done! Your devices should show up on the Smartapps main page and your SmartThings app.</p>
+<p>If you have any questions or need help, check out the <a href="#INTERNAL_LINK#/post/4">help section</a> and also consider <a href="#INTERNAL_LINK#/post/15" target="_blank" rel="noopener noreferrer">donating</a> if you like this project.</p>
 <h2>Settings</h2>
 <p>Every device has two different settings menus</p>
 <h3>Device page settings</h3>
@@ -307,207 +342,6 @@
 <figure class="gallery__item"><a href="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step4.jpeg" data-size="1440x747"><img src="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step4-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
 </div>
 <p><a href="#INTERNAL_LINK#/post/6" class="btn" title="Previous">Previous</a> <a href="#INTERNAL_LINK#/post/8" class="btn" title="Next">Next</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Installation - cast-web-api</title>
-        <author>
-            <name>vervallsweg</name>
-        </author>
-        <link href="https://vervallsweg.github.io/cast-web/installation-cast-web-api.html"/>
-        <id>https://vervallsweg.github.io/cast-web/installation-cast-web-api.html</id>
-
-        <updated>2018-05-27T19:00:24+02:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://vervallsweg.github.io/cast-web/media/posts/6/" alt="" />
-                <div class="ui one column grid">
-<div class="column">
-<div class="ui fluid ordered steps" style="font-size: 0.75em;">
-<div id="step1" class="completed link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/1" style="display: none;" title="Step 1">Step 1</a>
-<div class="content">
-<div class="title">Overview</div>
-<div class="description">Learn what<br>you're installing</div>
-</div>
-</div>
-<div id="step2" class="active link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/6" style="display: none;" title="Step 2">Step 2</a>
-<div class="content">
-<div class="title">cast-web-api</div>
-<div class="description">Install the bridge<br>on your network</div>
-</div>
-</div>
-<div id="step3" class="link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/7" style="display: none;" title="Step 3">Step 3</a>
-<div class="content">
-<div class="title">Device handler</div>
-<div class="description">Install the 'drivers'<br>for SmartThings</div>
-</div>
-</div>
-<div id="step4" class="link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/8" style="display: none;" title="Step 4">Step 4</a>
-<div class="content">
-<div class="title">Done</div>
-<div class="description">First steps</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="ui fluid accordion">
-<div class="title">
-<h2>Windows</h2>
-</div>
-<div class="content">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/64768bRCAxM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></p>
-<ol>
-<li>Download and install <a href="https://nodejs.org/en/download/" target="_blank" rel="noopener noreferrer">node.js</a> (Windows Installer)</li>
-<li>Open the node.js command prompt</li>
-<li>run <code>npm install cast-web-api -g</code></li>
-<li>test by running <code>cast-web-api</code> </li>
-</ol>
-<p>After a couple of seconds you should see <code>cast-web-api running at http://{address:port}/</code></p>
-<p class="msg msg--highlight ">The API is now runnning. However it will stop running if you close the node.js command prompt window. To solve this you can run it in the background with an application called forever.</p>
-<br>
-<ol>
-<li>Close your current node.js command prompt window</li>
-<li>Open the node.js command prompt</li>
-<li>run <code>npm install forever -g</code></li>
-<li>run <code>cast-web-api --windows</code></li>
-<li>copy the directory of the previous command</li>
-</ol>
-<p class="msg msg--success">Done! You can now start cast-web-api in the background and close the window afterwards.</p>
-<ol>
-<li>run <code>cd {the path you copied in step 5}</code></li>
-<li>to start, run <code>forever start cast-web-api</code></li>
-<li>to stop, run <code>forever stop cast-web-api</code></li>
-<li>to check if it's running, run <code>forever list</code></li>
-</ol>
-<p><a href="#INTERNAL_LINK#/post/1" class="btn" title="Previous">Previous</a> <a href="#INTERNAL_LINK#/post/7" class="btn" title="Next">Next</a></p>
-<hr></div>
-<div class="title">
-<h2>macOS</h2>
-</div>
-<div class="content">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/BGQhgSaAM0k?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe></p>
-<ol>
-<li>Download and install <a href="https://nodejs.org/en/download/">node.js</a> (macOS installer)</li>
-<li>Open the terminal</li>
-<li>run <code>sudo npm install cast-web-api -g</code></li>
-<li>test by running <code>cast-web-api</code> </li>
-</ol>
-<p>After a couple of seconds you should see <code>cast-web-api running at http://{address:port}/</code></p>
-<p class="msg msg--highlight ">The API is now runnning. However it will stop running if you close the node.js command prompt window. To solve this you can run it in the background with an application called forever.</p>
-<ol>
-<li>Close your current terminal window</li>
-<li>Open the terminal again</li>
-<li>run <code>sudo npm install forever -g</code></li>
-</ol>
-<p class="msg msg--success">Done! You can now start cast-web-api in the background and close the window afterwards.</p>
-<ul>
-<li>Start: <code>forever start `which cast-web-api`</code></li>
-<li>Stop: <code>forever stop `which cast-web-api`</code></li>
-<li>Check if it's running <code>forever list</code></li>
-</ul>
-<p><a href="#INTERNAL_LINK#/post/1" class="btn" title="Previous">Previous</a> <a href="#INTERNAL_LINK#/post/7" class="btn" title="Next">Next</a></p>
-</div>
-</div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Home</title>
-        <author>
-            <name>vervallsweg</name>
-        </author>
-        <link href="https://vervallsweg.github.io/cast-web/home.html"/>
-        <id>https://vervallsweg.github.io/cast-web/home.html</id>
-
-        <updated>2018-05-28T20:01:44+02:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://vervallsweg.github.io/cast-web/media/posts/5/" alt="" />
-                <div class="ui stackable grid container" style="margin-top: 1rem;">
-<div class="two wide column"> </div>
-<div class="six wide column" style="padding-left: 3em; padding-right: 3em;"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/devicesOverwievX2.jpg"></div>
-<div class="six wide column" style="display: flex; align-items: center;">
-<div>
-<h2>Control your Google Cast devices</h2>
-<p>See what's currently playing pause, play, set the volume and more, all from the SmartThings app. Quickly play your favourite content through presets.</p>
-</div>
-</div>
-<div class="two wide column"> </div>
-</div>
-<div class="ui mobile reversed stackable grid container">
-<div class="two wide column"> </div>
-<div class="six wide column" style="display: flex; align-items: center;">
-<div>
-<h2>Automate through SmartThings</h2>
-<p>Use your Cast devices in Routines, Scenes, webCore and any other compatible Smartapp.</p>
-</div>
-</div>
-<div class="six wide column" style="display: flex; align-items: center;">
-<div style="margin: 5em 0;">
-<div id="automate-first" class="ui compact secondary segment transition hidden">
-<div>Play WKRB on my Chromecast audio when I come home</div>
-</div>
-<div class="ui compact secondary segment transition hidden">
-<div>Set my Google Home's volume to 10% when home mode changes to night</div>
-</div>
-<div class="ui compact secondary segment transition hidden">
-<div>Announce the weather forecast on my Chromecast at 8am</div>
-</div>
-</div>
-</div>
-<div class="two wide column"> </div>
-</div>
-<div class="ui stackable grid container">
-<div class="two wide column"> </div>
-<div class="six wide column" style="display: flex; align-items: center; justify-content: center;">
-<div id="audio-notification"> </div>
-<img id="audio-notification-img" class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/google-home.svg"></div>
-<div class="six wide column" style="display: flex; align-items: center;">
-<div>
-<h2>Audio notifications</h2>
-<p>Languages include Englisch, French, German, Italian, Spanish and many more. It can even resume the playback of a preset after an audio notification played. It can only play and resume <a href="#INTERNAL_LINK#/post/13" target="_blank" rel="noopener noreferrer">DRM free</a> content through presets.</p>
-</div>
-</div>
-<div class="two wide column"> </div>
-</div>
-<div class="ui mobile reversed stackable grid container">
-<div class="two wide column"> </div>
-<div class="six wide column" style="display: flex; align-items: center;">
-<div>
-<h2>Just one device to setup</h2>
-<p>Requires a device on your network that runs node.js 24/7. You also need a SamsungSmartThings Hub and Chromecast compatible (Google Cast) devices.</p>
-</div>
-</div>
-<div class="six wide column"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/cast-web-api-square.jpg"></div>
-<div class="two wide column"> </div>
-</div>
-<div class="ui stackable grid container" style="margin-bottom: 5em;">
-<div class="two wide column"> </div>
-<div class="six wide column"><img class="ui fluid image" src="https://vervallsweg.github.io/cast-web/media/posts/5/Octocat.jpg"></div>
-<div class="six wide column" style="display: flex; align-items: center;">
-<div>
-<h2>Free and open source</h2>
-<p>Built for the community, by the community.<br><a href="#INTERNAL_LINK#/post/12">Contribute</a></p>
-</div>
-</div>
-<div class="two wide column"> </div>
-</div>
-<div class="ui stackable grid container">
-<div class="two wide column"> </div>
-<div class="twelve wide column" style="display: flex; align-items: center; justify-content: center; border-top: 1px solid #d5d8dc; padding-top: 0;">
-<div><a id="go-btn" href="#INTERNAL_LINK#/post/1" class="btn" title="Get started" style="font-size: 1.3em; padding: .53333em 1.6em; border: 0.1em solid; margin: 8em 0;">Get started</a></div>
-</div>
-<div class="two wide column"> </div>
-</div>
-<script>// <![CDATA[
-document.querySelector('main').style.cssText = "max-width:initial;"; document.querySelector('section.hero').style.cssText = "max-width: calc(38rem + 8%); margin: 0 auto; padding: 0 4%;";
-document.querySelector('.category>article').style.cssText = 'border-bottom: none; margin-bottom: 0; padding-bottom: 0;';
-docReady(function(){ document.querySelector('.footer').style.cssText = 'margin: 0;'; });
-// ]]></script>
             ]]>
         </content>
     </entry>
