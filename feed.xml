@@ -3,12 +3,30 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2018-05-30T17:28:11+02:00</updated>
+    <updated>2018-06-02T16:42:16+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
     <id>https://vervallsweg.github.io/cast-web</id>
 
+    <entry>
+        <title>Automation ideas</title>
+        <author>
+            <name>vervallsweg</name>
+        </author>
+        <link href="https://vervallsweg.github.io/cast-web/Automation-ideas.html"/>
+        <id>https://vervallsweg.github.io/cast-web/Automation-ideas.html</id>
+            <category term="FAQ"/>
+
+        <updated>2018-06-02T16:19:54+02:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://vervallsweg.github.io/cast-web/media/posts/18/" alt="" />
+                Coming soon.
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Roadmap for version 1.1</title>
         <author>
@@ -198,10 +216,10 @@
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/First-steps.html"/>
-        <id>https://vervallsweg.github.io/cast-web/First-steps.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/first-steps.html"/>
+        <id>https://vervallsweg.github.io/cast-web/first-steps.html</id>
 
-        <updated>2018-05-29T23:23:27+02:00</updated>
+        <updated>2018-06-02T16:41:24+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -240,7 +258,7 @@
 <ol>
 <li>Open your SmartThings mobile app</li>
 <li>Go to: 'Marketplace' &gt; 'Smartapps' &gt; '+ My Apps' &gt; Cast web - service manager</li>
-<li>Enter your cast-web-api address (displayed on startup of the API)</li>
+<li>Enter your cast-web-api address (displayed on startup of the API). It looks like this <code>http://192.168.2.105:3000/ </code>the numbers are probably different</li>
 <li>Tap 'Discover devices'</li>
 <li>Select your devices and click 'Done'</li>
 </ol>
@@ -253,95 +271,6 @@
 <h3>Service manager settings</h3>
 <p>Open the Service manager and tap any device's name. You can change the API address here and set/edit your presets.</p>
 <p><a href="#INTERNAL_LINK#/post/6" class="btn" title="Previous">Previous</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Installation - service manager &amp; DTH</title>
-        <author>
-            <name>vervallsweg</name>
-        </author>
-        <link href="https://vervallsweg.github.io/cast-web/Installation-service-manager-and-device-type.html"/>
-        <id>https://vervallsweg.github.io/cast-web/Installation-service-manager-and-device-type.html</id>
-
-        <updated>2018-05-29T01:11:28+02:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://vervallsweg.github.io/cast-web/media/posts/7/" alt="" />
-                <div class="ui one column grid">
-<div class="column">
-<div class="ui fluid ordered steps" style="font-size: 0.75em;">
-<div id="step1" class="completed link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/1" style="display: none;" title="Step 1">Step 1</a>
-<div class="content">
-<div class="title">Overview</div>
-<div class="description">Learn what<br>you're installing</div>
-</div>
-</div>
-<div id="step2" class="completed link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/6" style="display: none;" title="Step 2">Step 2</a>
-<div class="content">
-<div class="title">cast-web-api</div>
-<div class="description">Install the bridge<br>on your network</div>
-</div>
-</div>
-<div id="step3" class="active link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/7" style="display: none;" title="Step 3">Step 3</a>
-<div class="content">
-<div class="title">Device handler</div>
-<div class="description">Install the 'drivers'<br>for SmartThings</div>
-</div>
-</div>
-<div id="step4" class="link step" style="font-size: 0.9em;"><a href="#INTERNAL_LINK#/post/8" style="display: none;" title="Step 4">Step 4</a>
-<div class="content">
-<div class="title">Done</div>
-<div class="description">First steps</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<h2>Open the SmartThings IDE</h2>
-<ol>
-<li>Go to <a href="https://graph.api.smartthings.com/login/auth">https://graph.api.smartthings.com/login/auth</a></li>
-<li>Go to: `My locations` &gt; then click on your Hub</li>
-</ol>
-<p>This ensures that you're using the correct IDE location.</p>
-<h2>Device type handlers</h2>
-<h3>cast-web-device</h3>
-<ol>
-<li>Copy the device the device type handler’s groovy code from <a href="https://raw.githubusercontent.com/vervallsweg/smartthings/master/devicetypes/vervallsweg/cast-web.src/cast-web.groovy" title="here" target="_blank" rel="noopener noreferrer">here</a></li>
-<li>Open the SmartThings IDE and log in</li>
-<li>Go to: 'My Device Handlers' &gt; '+ Create New Device Handler' &gt; 'From Code'</li>
-<li>Paste the code from clipboard &gt; 'Create'</li>
-<li>Click 'Publish' &gt; 'For Me'</li>
-</ol>
-<div class="gallery" contenteditable="false" data-is-empty="false" data-columns="5">
-<figure class="gallery__item"><a href="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step1.jpeg" data-size="1439x747"><img src="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step1-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step2.jpeg" data-size="1440x746"><img src="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step2-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step3.jpeg" data-size="1440x747"><img src="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step3-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step4.jpeg" data-size="1440x746"><img src="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step4-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step5.jpeg" data-size="1440x749"><img src="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/dth_step5-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-</div>
-<h3>cast-web-api</h3>
-<ol>
-<li>Copy the device the device type handler’s groovy code from <a href="https://raw.githubusercontent.com/vervallsweg/smartthings/master/devicetypes/vervallsweg/cast-web.src/cast-web.groovy" title="here" target="_blank" rel="noopener noreferrer">here</a></li>
-<li>Go to: 'My Device Handlers' &gt; '+ Create New Device Handler' &gt; 'From Code'</li>
-<li>Paste the code from clipboard &gt; 'Create'</li>
-<li>Click 'Publish' &gt; 'For Me'</li>
-</ol>
-<h2>Service manager</h2>
-<ol>
-<li>Copy the service manager’s groovy code from <a href="https://raw.githubusercontent.com/vervallsweg/smartthings/master/smartapps/vervallsweg/cast-web-service-manager.src/cast-web-service-manager.groovy" title="here" target="_blank" rel="noopener noreferrer">here</a></li>
-<li>Go to: 'My SmartApps' &gt; 'New SmartApp' &gt; 'From Code'</li>
-<li>Paste the code from clipboard &gt; 'Create'</li>
-<li>Click 'Publish' &gt; 'For Me'</li>
-</ol>
-<div class="gallery" contenteditable="false" data-is-empty="false" data-columns="4">
-<figure class="gallery__item"><a href="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step1.jpeg" data-size="1440x749"><img src="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step1-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step2.jpeg" data-size="1440x746"><img src="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step2-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step3.jpeg" data-size="1440x748"><img src="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step3-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-<figure class="gallery__item"><a href="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step4.jpeg" data-size="1440x747"><img src="https://vervallsweg.github.io/cast-web/media/posts/7/gallery/servicemanager_step4-thumbnail.jpeg" alt="" width="240" height="240"></a></figure>
-</div>
-<p><a href="#INTERNAL_LINK#/post/6" class="btn" title="Previous">Previous</a> <a href="#INTERNAL_LINK#/post/8" class="btn" title="Next">Next</a></p>
             ]]>
         </content>
     </entry>
