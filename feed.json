@@ -11,10 +11,25 @@
     },
     "items": [
         {
+            "id": "https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device.html",
+            "url": "https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device.html",
+            "title": "My devices are only called &#x27;cast-web-device&#x27;",
+            "content_html": "<p>This is a communication issue between the cast-web-api and your SmartThings Hub.</p>\n<h2>Ensure that your cast-web-api is running</h2>\n<ol>\n<li>Open a browser window</li>\n<li>Enter the cast-web-api address, it is displayed on startup and looks roughly like this <code><a href=\"http://192.168.2.104:300/\">http://192.168.2.104:300/</a></code></li>\n<li>It should display the version of your cast-web-api</li>\n</ol>\n<p>Should you not see the current version, start it or check the <a href=\"#INTERNAL_LINK#/post/6\">install guide</a> again.</p>\n<ol>\n<li>Try opening the same address you just opened on a different device on the same network. Your phone for example.</li>\n</ol>\n<p>Should you not see the current version, there is a network issue. Make sure that there's no firewall on the API device that's blocking the connection. Also ensure that the API device and your SmartThings hub are on the same network and can communicate.</p>\n<ol>\n<li>Open your SmartThings app</li>\n<li>On your devices page, navigate to cast-web-api</li>\n<li>Press the refresh button</li>\n<li>Wait a couple of seconds, your devices should no work properly</li>\n</ol>\n<p>If they're still not working correctly, check the <a href=\"#INTERNAL_LINK#/post/4\">help</a> page for other solutions.</p>",
+            "image": "https://vervallsweg.github.io/cast-web/media/posts/19/",
+            "author": {
+                "name": "vervallsweg"
+            },
+            "tags": [
+                   "FAQ"
+            ],
+            "date_published": "2018-06-02T16:57:08+02:00",
+            "date_modified": "2018-06-02T16:57:08+02:00"
+        },
+        {
             "id": "https://vervallsweg.github.io/cast-web/Automation-ideas.html",
             "url": "https://vervallsweg.github.io/cast-web/Automation-ideas.html",
             "title": "Automation ideas",
-            "content_html": "Coming soon.",
+            "content_html": "<p>Cast-web basically sets up your Google Cast devices as selectable speakers for any audio output in SmartThins.</p>\n<p>Every other SmartThings Smartapp that works with SmartThings speakers can now use your Google Cast devices. Apps include many community Smartapps like BigTalker2 and even official SmartThings apps like SpeakerNotifyWithSound (defunct) and Speaker companion.</p>\n<p>All of these features are available to Google Cast devices with a screen (Chromecasts, etc.) and without one (Google Homes, Chromecast audios, etc.) and even groups you created in the Google Home app. </p>\n<h2>Stop my Chromecast audios when I turn on the TV</h2>\n<p> </p>\nMore ideas coming soon.",
             "image": "https://vervallsweg.github.io/cast-web/media/posts/18/",
             "author": {
                 "name": "vervallsweg"
@@ -23,7 +38,7 @@
                    "FAQ"
             ],
             "date_published": "2018-06-02T16:19:54+02:00",
-            "date_modified": "2018-06-02T16:19:54+02:00"
+            "date_modified": "2018-06-02T17:14:08+02:00"
         },
         {
             "id": "https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1.html",
@@ -141,20 +156,6 @@
             ],
             "date_published": "2018-05-25T10:28:01+02:00",
             "date_modified": "2018-05-29T01:10:05+02:00"
-        },
-        {
-            "id": "https://vervallsweg.github.io/cast-web/first-steps.html",
-            "url": "https://vervallsweg.github.io/cast-web/first-steps.html",
-            "title": "Installation - first steps",
-            "content_html": "<div class=\"ui one column grid\">\n<div class=\"column\">\n<div class=\"ui fluid ordered steps\" style=\"font-size: 0.75em;\">\n<div id=\"step1\" class=\"completed link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/1\" style=\"display: none;\" title=\"Step 1\">Step 1</a>\n<div class=\"content\">\n<div class=\"title\">Overview</div>\n<div class=\"description\">Learn what<br>you're installing</div>\n</div>\n</div>\n<div id=\"step2\" class=\"completed link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/6\" style=\"display: none;\" title=\"Step 2\">Step 2</a>\n<div class=\"content\">\n<div class=\"title\">cast-web-api</div>\n<div class=\"description\">Install the bridge<br>on your network</div>\n</div>\n</div>\n<div id=\"step3\" class=\"completed link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/7\" style=\"display: none;\" title=\"Step 3\">Step 3</a>\n<div class=\"content\">\n<div class=\"title\">Device handler</div>\n<div class=\"description\">Install the 'drivers'<br>for SmartThings</div>\n</div>\n</div>\n<div id=\"step4\" class=\"active link step\" style=\"font-size: 0.9em;\"><a href=\"#INTERNAL_LINK#/post/8\" style=\"display: none;\" title=\"Step 4\">Step 4</a>\n<div class=\"content\">\n<div class=\"title\">Done</div>\n<div class=\"description\">First steps</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<h2>Adding your devices</h2>\n<ol>\n<li>Open your SmartThings mobile app</li>\n<li>Go to: 'Marketplace' &gt; 'Smartapps' &gt; '+ My Apps' &gt; Cast web - service manager</li>\n<li>Enter your cast-web-api address (displayed on startup of the API). It looks like this <code>http://192.168.2.105:3000/ </code>the numbers are probably different</li>\n<li>Tap 'Discover devices'</li>\n<li>Select your devices and click 'Done'</li>\n</ol>\n<p class=\"msg msg--success\">Done! Your devices should show up on the Smartapps main page and your SmartThings app.</p>\n<p>If you have any questions or need help, check out the <a href=\"#INTERNAL_LINK#/post/4\">help section</a> and also consider <a href=\"https://vervallsweg.github.io/cast-web/donate.html\" target=\"_blank\" rel=\"noopener noreferrer\">donating</a> if you like this project.</p>\n<h2>Settings</h2>\n<p>Every device has two different settings menus</p>\n<h3>Device page settings</h3>\n<p>In your SmartThings app, every cast-web device has a settings wheel in the top right corner. This is where you find all device settings.</p>\n<h3>Service manager settings</h3>\n<p>Open the Service manager and tap any device's name. You can change the API address here and set/edit your presets.</p>\n<p><a href=\"#INTERNAL_LINK#/post/6\" class=\"btn\" title=\"Previous\">Previous</a></p>",
-            "image": "https://vervallsweg.github.io/cast-web/media/posts/8/",
-            "author": {
-                "name": "vervallsweg"
-            },
-            "tags": [
-            ],
-            "date_published": "2018-05-22T18:09:58+02:00",
-            "date_modified": "2018-06-02T16:41:24+02:00"
         }
     ]
 }
