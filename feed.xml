@@ -3,7 +3,7 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2018-06-03T17:58:18+02:00</updated>
+    <updated>2018-06-11T20:12:25+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
@@ -14,8 +14,8 @@
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device.html"/>
-        <id>https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device/"/>
+        <id>https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device/</id>
             <category term="FAQ"/>
 
         <updated>2018-06-02T16:57:08+02:00</updated>
@@ -50,8 +50,8 @@
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/Automation-ideas.html"/>
-        <id>https://vervallsweg.github.io/cast-web/Automation-ideas.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/Automation-ideas/"/>
+        <id>https://vervallsweg.github.io/cast-web/Automation-ideas/</id>
             <category term="FAQ"/>
 
         <updated>2018-06-02T17:14:08+02:00</updated>
@@ -73,8 +73,8 @@ More ideas coming soon.
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1.html"/>
-        <id>https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1/"/>
+        <id>https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1/</id>
             <category term="Roadmap"/>
 
         <updated>2018-05-29T13:28:25+02:00</updated>
@@ -91,10 +91,10 @@ More ideas coming soon.
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/Request-a-feature.html"/>
-        <id>https://vervallsweg.github.io/cast-web/Request-a-feature.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/request-a-feature/"/>
+        <id>https://vervallsweg.github.io/cast-web/request-a-feature/</id>
 
-        <updated>2018-05-29T13:15:54+02:00</updated>
+        <updated>2018-06-11T20:10:53+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -108,8 +108,8 @@ More ideas coming soon.
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/donate.html"/>
-        <id>https://vervallsweg.github.io/cast-web/donate.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/donate/"/>
+        <id>https://vervallsweg.github.io/cast-web/donate/</id>
 
         <updated>2018-05-29T02:17:50+02:00</updated>
             <summary></summary>
@@ -132,8 +132,8 @@ More ideas coming soon.
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/How-do-I-use-the-preset-generator.html"/>
-        <id>https://vervallsweg.github.io/cast-web/How-do-I-use-the-preset-generator.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/How-do-I-use-the-preset-generator/"/>
+        <id>https://vervallsweg.github.io/cast-web/How-do-I-use-the-preset-generator/</id>
             <category term="FAQ"/>
 
         <updated>2018-05-28T19:57:22+02:00</updated>
@@ -150,8 +150,8 @@ More ideas coming soon.
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/What-can-I-play-through-presets.html"/>
-        <id>https://vervallsweg.github.io/cast-web/What-can-I-play-through-presets.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/What-can-I-play-through-presets/"/>
+        <id>https://vervallsweg.github.io/cast-web/What-can-I-play-through-presets/</id>
             <category term="FAQ"/>
 
         <updated>2018-05-28T19:55:48+02:00</updated>
@@ -177,8 +177,8 @@ More ideas coming soon.
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/contribute.html"/>
-        <id>https://vervallsweg.github.io/cast-web/contribute.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/contribute/"/>
+        <id>https://vervallsweg.github.io/cast-web/contribute/</id>
 
         <updated>2018-05-29T10:52:54+02:00</updated>
             <summary></summary>
@@ -202,8 +202,8 @@ More ideas coming soon.
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/Second-blog-post.html"/>
-        <id>https://vervallsweg.github.io/cast-web/Second-blog-post.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/Second-blog-post/"/>
+        <id>https://vervallsweg.github.io/cast-web/Second-blog-post/</id>
             <category term="News"/>
 
         <updated>2018-05-25T10:30:14+02:00</updated>
@@ -220,11 +220,11 @@ More ideas coming soon.
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/First-blog-post.html"/>
-        <id>https://vervallsweg.github.io/cast-web/First-blog-post.html</id>
+        <link href="https://vervallsweg.github.io/cast-web/updating-to-v1/"/>
+        <id>https://vervallsweg.github.io/cast-web/updating-to-v1/</id>
             <category term="News"/>
 
-        <updated>2018-05-29T01:10:05+02:00</updated>
+        <updated>2018-06-11T20:07:51+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[

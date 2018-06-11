@@ -11,8 +11,8 @@
     },
     "items": [
         {
-            "id": "https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device.html",
-            "url": "https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device.html",
+            "id": "https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device/",
+            "url": "https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device/",
             "title": "My devices are only called &#x27;cast-web-device&#x27;",
             "content_html": "<p>This is a communication issue between the cast-web-api and your SmartThings Hub.</p>\n<h2>Ensure that your cast-web-api is running</h2>\n<ol>\n<li>Open a browser window</li>\n<li>Enter the cast-web-api address, it is displayed on startup and looks roughly like this <code><a href=\"http://192.168.2.104:300/\">http://192.168.2.104:300/</a></code></li>\n<li>It should display the version of your cast-web-api</li>\n</ol>\n<p>Should you not see the current version, start it or check the <a href=\"#INTERNAL_LINK#/post/6\">install guide</a> again.</p>\n<ol>\n<li>Try opening the same address you just opened on a different device on the same network. Your phone for example.</li>\n</ol>\n<p>Should you not see the current version, there is a network issue. Make sure that there's no firewall on the API device that's blocking the connection. Also ensure that the API device and your SmartThings hub are on the same network and can communicate.</p>\n<ol>\n<li>Open your SmartThings app</li>\n<li>On your devices page, navigate to cast-web-api</li>\n<li>Press the refresh button</li>\n<li>Wait a couple of seconds, your devices should no work properly</li>\n</ol>\n<p>If they're still not working correctly, check the <a href=\"#INTERNAL_LINK#/post/4\">help</a> page for other solutions.</p>",
             "image": "https://vervallsweg.github.io/cast-web/media/posts/19/",
@@ -26,8 +26,8 @@
             "date_modified": "2018-06-02T16:57:08+02:00"
         },
         {
-            "id": "https://vervallsweg.github.io/cast-web/Automation-ideas.html",
-            "url": "https://vervallsweg.github.io/cast-web/Automation-ideas.html",
+            "id": "https://vervallsweg.github.io/cast-web/Automation-ideas/",
+            "url": "https://vervallsweg.github.io/cast-web/Automation-ideas/",
             "title": "Automation ideas",
             "content_html": "<p>Cast-web basically sets up your Google Cast devices as selectable speakers for any audio output in SmartThins.</p>\n<p>Every other SmartThings Smartapp that works with SmartThings speakers can now use your Google Cast devices. Apps include many community Smartapps like BigTalker2 and even official SmartThings apps like SpeakerNotifyWithSound (defunct) and Speaker companion.</p>\n<p>All of these features are available to Google Cast devices with a screen (Chromecasts, etc.) and without one (Google Homes, Chromecast audios, etc.) and even groups you created in the Google Home app. </p>\n<h2>Stop my Chromecast audios when I turn on the TV</h2>\n<p> </p>\nMore ideas coming soon.",
             "image": "https://vervallsweg.github.io/cast-web/media/posts/18/",
@@ -41,8 +41,8 @@
             "date_modified": "2018-06-02T17:14:08+02:00"
         },
         {
-            "id": "https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1.html",
-            "url": "https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1.html",
+            "id": "https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1/",
+            "url": "https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1/",
             "title": "Roadmap for version 1.1",
             "content_html": "TBA.",
             "image": "https://vervallsweg.github.io/cast-web/media/posts/17/",
@@ -56,8 +56,8 @@
             "date_modified": "2018-05-29T13:28:25+02:00"
         },
         {
-            "id": "https://vervallsweg.github.io/cast-web/Request-a-feature.html",
-            "url": "https://vervallsweg.github.io/cast-web/Request-a-feature.html",
+            "id": "https://vervallsweg.github.io/cast-web/request-a-feature/",
+            "url": "https://vervallsweg.github.io/cast-web/request-a-feature/",
             "title": "Request a feature",
             "content_html": "<iframe width=\"100%\" height=\"1000px\" src=\"https://docs.google.com/forms/d/e/1FAIpQLSe3MkdvLfJ1EoMnSS7xSQIR6YedbKt3DVIKqizuHJ8X9bp1Gg/viewform?embedded=true\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe>",
             "image": "https://vervallsweg.github.io/cast-web/media/posts/16/",
@@ -67,11 +67,11 @@
             "tags": [
             ],
             "date_published": "2018-05-29T13:09:42+02:00",
-            "date_modified": "2018-05-29T13:15:54+02:00"
+            "date_modified": "2018-06-11T20:10:53+02:00"
         },
         {
-            "id": "https://vervallsweg.github.io/cast-web/donate.html",
-            "url": "https://vervallsweg.github.io/cast-web/donate.html",
+            "id": "https://vervallsweg.github.io/cast-web/donate/",
+            "url": "https://vervallsweg.github.io/cast-web/donate/",
             "title": "Donate",
             "content_html": "<p>What started as a private DIY project has now turned into a really capable, stable and widely used project.</p>\n<p>cast-web is mainly maintained by one person, me vervallsweg. This is not what I do for a living, but the workload of this project often comes pretty close. If you like cast-web please consider donating, it helps me as a student pay my bills and dedicate more of my time towards this project.</p>\n<p>This project is add free, not behind a paywall, completly free and open source. Please help to keep it the way it is.</p>\n<p>Thank you.</p>\n<p><a href=\"https://www.paypal.me/vervallsweg\" title=\" \" id=\"donate\" class=\"btn\" style=\"font-size: 1.5em;\"> </a> </p>\n<script>// <![CDATA[\n\tdocument.querySelector('a#donate').innerHTML = '<i class=\"icon paypal\" style=\"margin:0;\"></i>';\n// ]]></script>",
             "image": "https://vervallsweg.github.io/cast-web/media/posts/15/",
@@ -84,8 +84,8 @@
             "date_modified": "2018-05-29T02:17:50+02:00"
         },
         {
-            "id": "https://vervallsweg.github.io/cast-web/How-do-I-use-the-preset-generator.html",
-            "url": "https://vervallsweg.github.io/cast-web/How-do-I-use-the-preset-generator.html",
+            "id": "https://vervallsweg.github.io/cast-web/How-do-I-use-the-preset-generator/",
+            "url": "https://vervallsweg.github.io/cast-web/How-do-I-use-the-preset-generator/",
             "title": "How do I use the preset generator?",
             "content_html": "Coming soon.",
             "image": "https://vervallsweg.github.io/cast-web/media/posts/14/",
@@ -99,8 +99,8 @@
             "date_modified": "2018-05-28T19:57:22+02:00"
         },
         {
-            "id": "https://vervallsweg.github.io/cast-web/What-can-I-play-through-presets.html",
-            "url": "https://vervallsweg.github.io/cast-web/What-can-I-play-through-presets.html",
+            "id": "https://vervallsweg.github.io/cast-web/What-can-I-play-through-presets/",
+            "url": "https://vervallsweg.github.io/cast-web/What-can-I-play-through-presets/",
             "title": "What can I play through presets?",
             "content_html": "<p>Only DRM free content. Probably not what you want your fancy internet connected speaker to play.</p>\n<h2>What is DRM free content?</h2>\n<p>Everything you can get a direct file link to. It needs to be without a login, hosted on the internet or your local network.</p>\n<p>This excludes most streaming services like Netflix or Spotify, since you cannot get a direct link (.mp3/4) and have to log in.</p>\n<p>However most radio stations have direct links and don't need a login.</p>\n<h2>What formats are supported?</h2>\n<p> </p>\n<p>Almost every major format is supported. A <a href=\"https://developers.google.com/cast/docs/media#media-type-strings\" target=\"_blank\" rel=\"noopener noreferrer\">full list</a> is available by Google.</p>\n<h2>How do I create presets?</h2>\n<p>Use the <a href=\"https://vervallsweg.github.io/smartthings/cast-web-preset-generator/preset-generator.html\" target=\"_blank\" rel=\"noopener noreferrer\">preset generator</a>. A guide is available.</p>",
             "image": "https://vervallsweg.github.io/cast-web/media/posts/13/",
@@ -114,8 +114,8 @@
             "date_modified": "2018-05-28T19:55:48+02:00"
         },
         {
-            "id": "https://vervallsweg.github.io/cast-web/contribute.html",
-            "url": "https://vervallsweg.github.io/cast-web/contribute.html",
+            "id": "https://vervallsweg.github.io/cast-web/contribute/",
+            "url": "https://vervallsweg.github.io/cast-web/contribute/",
             "title": "Contribute",
             "content_html": "<p>All of the source code is available on GitHub under GPL3.</p>\n<ul>\n<li><a href=\"https://github.com/vervallsweg/cast-web-api\" target=\"_blank\" rel=\"noopener noreferrer\">cast-web-api</a></li>\n<li><a href=\"https://github.com/vervallsweg/smartthings\" target=\"_blank\" rel=\"noopener noreferrer\">smartthings</a></li>\n</ul>\n<h2>Beta versions</h2>\n<p>Every new release is developed in a new branch with the corrseponding version number. Please note that new versions of the DTH and Smartapps are released individually.</p>\n<h2>Pull requests</h2>\n<p>PRs are always appreciated. Just watch out for any new version branch and avoid 'master' as a base for your PR.</p>",
             "image": "https://vervallsweg.github.io/cast-web/media/posts/12/",
@@ -128,8 +128,8 @@
             "date_modified": "2018-05-29T10:52:54+02:00"
         },
         {
-            "id": "https://vervallsweg.github.io/cast-web/Second-blog-post.html",
-            "url": "https://vervallsweg.github.io/cast-web/Second-blog-post.html",
+            "id": "https://vervallsweg.github.io/cast-web/Second-blog-post/",
+            "url": "https://vervallsweg.github.io/cast-web/Second-blog-post/",
             "title": "Second blog post",
             "content_html": "Hello again.",
             "image": "https://vervallsweg.github.io/cast-web/media/posts/10/",
@@ -143,8 +143,8 @@
             "date_modified": "2018-05-25T10:30:14+02:00"
         },
         {
-            "id": "https://vervallsweg.github.io/cast-web/First-blog-post.html",
-            "url": "https://vervallsweg.github.io/cast-web/First-blog-post.html",
+            "id": "https://vervallsweg.github.io/cast-web/updating-to-v1/",
+            "url": "https://vervallsweg.github.io/cast-web/updating-to-v1/",
             "title": "Updating from a version below 1.x",
             "content_html": "<p>Hey,</p>\n<p>if you're reading this, you're probably using cast-web for quite some time now. First off, I want to thank you. Feedback and participation from people like you have helped shape this project significantly. Version 1 is a significant step forward and adds some of the most requested features.</p>\n<p>It finally doesn't have to poll your device every x seconds. It basically works like push notifications on your phone now. Or in Google Cast terms, it's as fast as the Google Home app. You can now cast stuff from your phone and the second you press the volume button on your phone, ST will display the new volume. This is quite impressive considering that every packet goes through two hops before arriving on your phone.</p>\n<p>We also have voice notifications in multiple languages and with a Google voice now. You can finally resume a preset after your notification, you can even queue up multiple stations/songs/videos that will play one after the other. There're so many new features and so many more to come. Just try it yourself!</p>\n<h2>The bad stuff</h2>\n<p>You'll have to remove all of your cast-web devices from SmartThings.</p>\n<p>That's the worst part. V1 brings an architectural change that in ST can only be achieved on install. Every cast-web device is now the parent of a cast-web-api device. Existing devices cannot be 'moved' to a parent device.</p>\n<p class=\"msg msg--info\">I want to point out here, that you don't need to upgrade. Every old version is going to continue to work fine. V1 brings a lot of new features, it is wicked fast, but the older versions are not going away. This is the advantage of having a local installation, you choose when to update or whether at all.</p>\n<h2>How to update</h2>\n<ol>\n<li>Note down how your cast devices are currently used (what to restore after reinstall) and copy your preset objects if you use them</li>\n<li>Remove all cast-web devices. You can try to directly remove the SM, but this often fails with a weird error message.</li>\n<li>Remove the Service manager</li>\n<li>Stop the cast-web-api</li>\n<li>Follow the new <a href=\"#INTERNAL_LINK#/post/1\">install instructions</a></li>\n</ol>\n<p class=\"msg msg--highlight \">Keep in mind that you now have to install two DTHs 'cast-web-device' (formerly cast-web) and a DTH called 'cast-web-api'. This will show up in ST as a device after install.</p>\n<h2>What happend to group-sync?</h2>\n<p>It's now redundant. The API now automatically detects groups, connects to their members and syncs the playback.</p>\n<p>If you want to level the volume on a group, just add the group to ST and set the volume twice. Setting the volume once, for example to 20%, will set the volume on the group. If the volume is already at 20%, it will level all other members to 20% as well. Just tap the volume slider a second time.</p>",
             "image": "https://vervallsweg.github.io/cast-web/media/posts/9/",
@@ -155,7 +155,7 @@
                    "News"
             ],
             "date_published": "2018-05-25T10:28:01+02:00",
-            "date_modified": "2018-05-29T01:10:05+02:00"
+            "date_modified": "2018-06-11T20:07:51+02:00"
         }
     ]
 }
