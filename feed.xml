@@ -3,7 +3,7 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2018-06-11T20:12:25+02:00</updated>
+    <updated>2018-06-12T12:38:45+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
@@ -198,20 +198,33 @@ More ideas coming soon.
         </content>
     </entry>
     <entry>
-        <title>Second blog post</title>
+        <title>Release of cast-web v1</title>
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/Second-blog-post/"/>
-        <id>https://vervallsweg.github.io/cast-web/Second-blog-post/</id>
+        <link href="https://vervallsweg.github.io/cast-web/release-of-cast-web-v1/"/>
+        <id>https://vervallsweg.github.io/cast-web/release-of-cast-web-v1/</id>
             <category term="News"/>
 
-        <updated>2018-05-25T10:30:14+02:00</updated>
+        <updated>2018-06-12T12:37:52+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                     <img src="https://vervallsweg.github.io/cast-web/media/posts/10/" alt="" />
-                Hello again.
+                <p>Hey,</p>
+<p>after months of work I'm happy to finally release version 1.0.0 of cast-web!</p>
+<p class="msg--highlight msg ">If you're upgrading from a previous version, there are big architectural changes that make upgrading more difficult. Learn more about it <a href="#INTERNAL_LINK#/post/9" target="_blank" rel="noopener noreferrer">here</a>.</p>
+<p>I tried to address the most annoying shortcomings of cast-web and here are some of the most important improvments:</p>
+<ul>
+<li>no more polling, the API stays constantly connected to your cast-device and updates ST the second that something changes</li>
+<li>audio notifications can now resume the preset that was playing before the notification was played (or play on you specified in settings)</li>
+<li>audio notifications can now use Google TTS in different languages and voices (thanks to @<a href="https://github.com/CultusMechanicus" target="_blank" rel="noopener noreferrer">CultusMechanicus</a>)</li>
+<li>playback of queued content (more features coming in the next release)</li>
+<li>automatic group detection and new Google cast icons</li>
+</ul>
+<p>You can check the full changelog on <a href="https://github.com/vervallsweg/smartthings/blob/master/devicetypes/vervallsweg/cast-web-device.src/README.md" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+<p>The revamped cast-web-api is the foundation for even more exiting features in the next release. It also allows for an easier transition should the ST groovy IDE go away in the future.</p>
+<p>I want to thank the beta testers over at the ST community @<a href="https://community.smartthings.com/u/alwas">Alwas</a>, @<a class="trigger-user-card " data-user-card="Timeteo"></a><a href="https://community.smartthings.com/u/timeteo">Timeteo</a>, @<a class="trigger-user-card " data-user-card="Matt_Behnken"></a><a href="https://community.smartthings.com/u/matt_behnken">Matt_Behnken</a>, @<a class="trigger-user-card " data-user-card="vervallsweg"></a><a href="https://community.smartthings.com/u/aniceberg">aniceberg</a> and @<a class="trigger-user-card " data-user-card="WasHerald"></a><a href="https://community.smartthings.com/u/washerald">WasHerald</a>. They greatly contributed to making v1 more stable and (hopefully) bug free. Also a huge thank you to everyone who kindly donated to help me dedicate more of my time to the project. You will get a more prominent shout-out soon.</p>
             ]]>
         </content>
     </entry>

@@ -128,10 +128,10 @@
             "date_modified": "2018-05-29T10:52:54+02:00"
         },
         {
-            "id": "https://vervallsweg.github.io/cast-web/Second-blog-post/",
-            "url": "https://vervallsweg.github.io/cast-web/Second-blog-post/",
-            "title": "Second blog post",
-            "content_html": "Hello again.",
+            "id": "https://vervallsweg.github.io/cast-web/release-of-cast-web-v1/",
+            "url": "https://vervallsweg.github.io/cast-web/release-of-cast-web-v1/",
+            "title": "Release of cast-web v1",
+            "content_html": "<p>Hey,</p>\n<p>after months of work I'm happy to finally release version 1.0.0 of cast-web!</p>\n<p class=\"msg--highlight msg \">If you're upgrading from a previous version, there are big architectural changes that make upgrading more difficult. Learn more about it <a href=\"#INTERNAL_LINK#/post/9\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.</p>\n<p>I tried to address the most annoying shortcomings of cast-web and here are some of the most important improvments:</p>\n<ul>\n<li>no more polling, the API stays constantly connected to your cast-device and updates ST the second that something changes</li>\n<li>audio notifications can now resume the preset that was playing before the notification was played (or play on you specified in settings)</li>\n<li>audio notifications can now use Google TTS in different languages and voices (thanks to @<a href=\"https://github.com/CultusMechanicus\" target=\"_blank\" rel=\"noopener noreferrer\">CultusMechanicus</a>)</li>\n<li>playback of queued content (more features coming in the next release)</li>\n<li>automatic group detection and new Google cast icons</li>\n</ul>\n<p>You can check the full changelog on <a href=\"https://github.com/vervallsweg/smartthings/blob/master/devicetypes/vervallsweg/cast-web-device.src/README.md\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub</a>.</p>\n<p>The revamped cast-web-api is the foundation for even more exiting features in the next release. It also allows for an easier transition should the ST groovy IDE go away in the future.</p>\n<p>I want to thank the beta testers over at the ST community @<a href=\"https://community.smartthings.com/u/alwas\">Alwas</a>, @<a class=\"trigger-user-card \" data-user-card=\"Timeteo\"></a><a href=\"https://community.smartthings.com/u/timeteo\">Timeteo</a>, @<a class=\"trigger-user-card \" data-user-card=\"Matt_Behnken\"></a><a href=\"https://community.smartthings.com/u/matt_behnken\">Matt_Behnken</a>, @<a class=\"trigger-user-card \" data-user-card=\"vervallsweg\"></a><a href=\"https://community.smartthings.com/u/aniceberg\">aniceberg</a> and @<a class=\"trigger-user-card \" data-user-card=\"WasHerald\"></a><a href=\"https://community.smartthings.com/u/washerald\">WasHerald</a>. They greatly contributed to making v1 more stable and (hopefully) bug free. Also a huge thank you to everyone who kindly donated to help me dedicate more of my time to the project. You will get a more prominent shout-out soon.</p>",
             "image": "https://vervallsweg.github.io/cast-web/media/posts/10/",
             "author": {
                 "name": "vervallsweg"
@@ -140,7 +140,7 @@
                    "News"
             ],
             "date_published": "2018-05-25T10:30:14+02:00",
-            "date_modified": "2018-05-25T10:30:14+02:00"
+            "date_modified": "2018-06-12T12:37:52+02:00"
         },
         {
             "id": "https://vervallsweg.github.io/cast-web/updating-to-v1/",
