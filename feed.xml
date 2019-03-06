@@ -3,12 +3,60 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2018-08-16T17:07:10+02:00</updated>
+    <updated>2019-03-06T15:33:15+01:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
     <id>https://vervallsweg.github.io/cast-web</id>
 
+    <entry>
+        <title>Google Assistant problems</title>
+        <author>
+            <name>vervallsweg</name>
+        </author>
+        <link href="https://vervallsweg.github.io/cast-web/google-assistant-problems/"/>
+        <id>https://vervallsweg.github.io/cast-web/google-assistant-problems/</id>
+            <category term="FAQ"/>
+
+        <updated>2019-03-06T15:18:04+01:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://vervallsweg.github.io/cast-web/media/posts/22/" alt="" />
+                <h2>Cannot read errors</h2>
+<p><span data-dobid="hdw">Inaccessible configuration files happen on certain platform. This will be fixed in the next release. For the time being you can try to <a href="https://github.com/vervallsweg/cast-web-api/issues/94" target="_blank" rel="noopener noreferrer">manually create them</a>.</span></p>
+<h2>Assistant configuration lost after update</h2>
+<p>Updating cast-web-api can lead to the google assistant configuration files being deleted. Go to {your api ip address}/assistant/setup and follow the guide again. This will be fixed in the next release.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>&#x27;GoogleAssistant not installed&#x27;</title>
+        <author>
+            <name>vervallsweg</name>
+        </author>
+        <link href="https://vervallsweg.github.io/cast-web/GoogleAssistant-not-installed/"/>
+        <id>https://vervallsweg.github.io/cast-web/GoogleAssistant-not-installed/</id>
+            <category term="FAQ"/>
+
+        <updated>2019-03-06T15:18:39+01:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://vervallsweg.github.io/cast-web/media/posts/21/" alt="" />
+                <h2>What causes this issue?</h2>
+<p>For the Assistant features a package called 'google-assistant' needs to be installed. Since there are often issues when installing that package, it is marked as optional. Meaning when you installed cast-web-api v&gt;1.0 it couldn't install this package and just skipped it. However cast-web-api can work without the assistant, it is optional.</p>
+<h2>The most likely fix</h2>
+<p>You need to grant the install scripts of the 'google-assistant' package or cast-web-api root permisions.</p>
+<p>To install after first install of cast-web-api:</p>
+<p><code>sudo npm install google-assistant -g ---unsafe-perm</code></p>
+<p>To install cast-web-api with all dependencies from the get go also add the same flag:</p>
+<p><code>sudo npm install cast-web-api -g --unsafe-perm</code></p>
+<h2>node-gyp errors</h2>
+<p>Coming soon.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>My devices are only called &#x27;cast-web-device&#x27;</title>
         <author>
@@ -69,7 +117,7 @@ More ideas coming soon.
         </content>
     </entry>
     <entry>
-        <title>Roadmap for version 1.1</title>
+        <title>Roadmap for version 1.1.0</title>
         <author>
             <name>vervallsweg</name>
         </author>
@@ -77,12 +125,17 @@ More ideas coming soon.
         <id>https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1/</id>
             <category term="Roadmap"/>
 
-        <updated>2018-05-29T13:28:25+02:00</updated>
+        <updated>2018-09-19T21:24:16+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                     <img src="https://vervallsweg.github.io/cast-web/media/posts/17/" alt="" />
-                TBA.
+                <ul>
+<li>Google Assistant support: you can now broadcast messages to your Google Homes, without interrupting playback</li>
+<li>Fixed: use Google TTS to read out characters longer than 200 characters</li>
+<li>Preset objects now support queueing</li>
+<li>Preset generator now lets queue multiple elements</li>
+</ul>
             ]]>
         </content>
     </entry>
@@ -194,74 +247,6 @@ More ideas coming soon.
 <p>Every new release is developed in a new branch with the corrseponding version number. Please note that new versions of the DTH and Smartapps are released individually.</p>
 <h2>Pull requests</h2>
 <p>PRs are always appreciated. Just watch out for any new version branch and avoid 'master' as a base for your PR.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Release of cast-web v1</title>
-        <author>
-            <name>vervallsweg</name>
-        </author>
-        <link href="https://vervallsweg.github.io/cast-web/release-of-cast-web-v1/"/>
-        <id>https://vervallsweg.github.io/cast-web/release-of-cast-web-v1/</id>
-            <category term="News"/>
-
-        <updated>2018-06-12T12:37:52+02:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://vervallsweg.github.io/cast-web/media/posts/10/" alt="" />
-                <p>Hey,</p>
-<p>after months of work I'm happy to finally release version 1.0.0 of cast-web!</p>
-<p class="msg--highlight msg ">If you're upgrading from a previous version, there are big architectural changes that make upgrading more difficult. Learn more about it <a href="#INTERNAL_LINK#/post/9" target="_blank" rel="noopener noreferrer">here</a>.</p>
-<p>I tried to address the most annoying shortcomings of cast-web and here are some of the most important improvments:</p>
-<ul>
-<li>no more polling, the API stays constantly connected to your cast-device and updates ST the second that something changes</li>
-<li>audio notifications can now resume the preset that was playing before the notification was played (or play on you specified in settings)</li>
-<li>audio notifications can now use Google TTS in different languages and voices (thanks to @<a href="https://github.com/CultusMechanicus" target="_blank" rel="noopener noreferrer">CultusMechanicus</a>)</li>
-<li>playback of queued content (more features coming in the next release)</li>
-<li>automatic group detection and new Google cast icons</li>
-</ul>
-<p>You can check the full changelog on <a href="https://github.com/vervallsweg/smartthings/blob/master/devicetypes/vervallsweg/cast-web-device.src/README.md" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
-<p>The revamped cast-web-api is the foundation for even more exiting features in the next release. It also allows for an easier transition should the ST groovy IDE go away in the future.</p>
-<p>I want to thank the beta testers over at the ST community @<a href="https://community.smartthings.com/u/alwas">Alwas</a>, @<a class="trigger-user-card " data-user-card="Timeteo"></a><a href="https://community.smartthings.com/u/timeteo">Timeteo</a>, @<a class="trigger-user-card " data-user-card="Matt_Behnken"></a><a href="https://community.smartthings.com/u/matt_behnken">Matt_Behnken</a>, @<a class="trigger-user-card " data-user-card="vervallsweg"></a><a href="https://community.smartthings.com/u/aniceberg">aniceberg</a> and @<a class="trigger-user-card " data-user-card="WasHerald"></a><a href="https://community.smartthings.com/u/washerald">WasHerald</a>. They greatly contributed to making v1 more stable and (hopefully) bug free. Also a huge thank you to everyone who kindly donated to help me dedicate more of my time to the project. You will get a more prominent shout-out soon.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Updating from a version below 1.x</title>
-        <author>
-            <name>vervallsweg</name>
-        </author>
-        <link href="https://vervallsweg.github.io/cast-web/updating-to-v1/"/>
-        <id>https://vervallsweg.github.io/cast-web/updating-to-v1/</id>
-            <category term="News"/>
-
-        <updated>2018-06-11T20:07:51+02:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://vervallsweg.github.io/cast-web/media/posts/9/" alt="" />
-                <p>Hey,</p>
-<p>if you're reading this, you're probably using cast-web for quite some time now. First off, I want to thank you. Feedback and participation from people like you have helped shape this project significantly. Version 1 is a significant step forward and adds some of the most requested features.</p>
-<p>It finally doesn't have to poll your device every x seconds. It basically works like push notifications on your phone now. Or in Google Cast terms, it's as fast as the Google Home app. You can now cast stuff from your phone and the second you press the volume button on your phone, ST will display the new volume. This is quite impressive considering that every packet goes through two hops before arriving on your phone.</p>
-<p>We also have voice notifications in multiple languages and with a Google voice now. You can finally resume a preset after your notification, you can even queue up multiple stations/songs/videos that will play one after the other. There're so many new features and so many more to come. Just try it yourself!</p>
-<h2>The bad stuff</h2>
-<p>You'll have to remove all of your cast-web devices from SmartThings.</p>
-<p>That's the worst part. V1 brings an architectural change that in ST can only be achieved on install. Every cast-web device is now the parent of a cast-web-api device. Existing devices cannot be 'moved' to a parent device.</p>
-<p class="msg msg--info">I want to point out here, that you don't need to upgrade. Every old version is going to continue to work fine. V1 brings a lot of new features, it is wicked fast, but the older versions are not going away. This is the advantage of having a local installation, you choose when to update or whether at all.</p>
-<h2>How to update</h2>
-<ol>
-<li>Note down how your cast devices are currently used (what to restore after reinstall) and copy your preset objects if you use them</li>
-<li>Remove all cast-web devices. You can try to directly remove the SM, but this often fails with a weird error message.</li>
-<li>Remove the Service manager</li>
-<li>Stop the cast-web-api</li>
-<li>Follow the new <a href="#INTERNAL_LINK#/post/1">install instructions</a></li>
-</ol>
-<p class="msg msg--highlight ">Keep in mind that you now have to install two DTHs 'cast-web-device' (formerly cast-web) and a DTH called 'cast-web-api'. This will show up in ST as a device after install.</p>
-<h2>What happend to group-sync?</h2>
-<p>It's now redundant. The API now automatically detects groups, connects to their members and syncs the playback.</p>
-<p>If you want to level the volume on a group, just add the group to ST and set the volume twice. Setting the volume once, for example to 20%, will set the volume on the group. If the volume is already at 20%, it will level all other members to 20% as well. Just tap the volume slider a second time.</p>
             ]]>
         </content>
     </entry>
