@@ -3,12 +3,38 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2019-03-06T15:33:15+01:00</updated>
+    <updated>2019-03-12T17:06:08+01:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
     <id>https://vervallsweg.github.io/cast-web</id>
 
+    <entry>
+        <title>Google Assistant integration</title>
+        <author>
+            <name>vervallsweg</name>
+        </author>
+        <link href="https://vervallsweg.github.io/cast-web/google-assistant-integration/"/>
+        <id>https://vervallsweg.github.io/cast-web/google-assistant-integration/</id>
+
+        <updated>2019-03-12T17:05:07+01:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://vervallsweg.github.io/cast-web/media/posts/23/" alt="" />
+                <h2>What does it do?</h2>
+<p>TBD</p>
+<h2>Installation</h2>
+<div style="height: 315px; width: 560px; overflow: hidden;">
+<div><img src="https://vervallsweg.github.io/cast-web/media/posts/23/cast-web-api-assistant.jpeg" alt="cast-web-api - Google Assistant setup" width="560" height="315">
+<div style="position: relative; bottom: 160px; background-color: black;">Please <a onclick="youTubeCookieConsent(this, 'https://www.youtube.com/embed/f1ij_c2I4Ms?rel=0');">accept</a> cookies by <a href="https://www.youtube.com/static?template=privacy_guidelines">YouTube</a> to play this video. By accepting you will be accessing a service provided by a third party external to cast-web.</div>
+</div>
+</div>
+<h2>Usage</h2>
+<h2>Common issues</h2>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Google Assistant problems</title>
         <author>
@@ -222,31 +248,6 @@ More ideas coming soon.
 <p>Almost every major format is supported. A <a href="https://developers.google.com/cast/docs/media#media-type-strings" target="_blank" rel="noopener noreferrer">full list</a> is available by Google.</p>
 <h2>How do I create presets?</h2>
 <p>Use the <a href="https://vervallsweg.github.io/smartthings/cast-web-preset-generator/preset-generator.html" target="_blank" rel="noopener noreferrer">preset generator</a>. A guide is available.</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Contribute</title>
-        <author>
-            <name>vervallsweg</name>
-        </author>
-        <link href="https://vervallsweg.github.io/cast-web/contribute/"/>
-        <id>https://vervallsweg.github.io/cast-web/contribute/</id>
-
-        <updated>2018-05-29T10:52:54+02:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://vervallsweg.github.io/cast-web/media/posts/12/" alt="" />
-                <p>All of the source code is available on GitHub under GPL3.</p>
-<ul>
-<li><a href="https://github.com/vervallsweg/cast-web-api" target="_blank" rel="noopener noreferrer">cast-web-api</a></li>
-<li><a href="https://github.com/vervallsweg/smartthings" target="_blank" rel="noopener noreferrer">smartthings</a></li>
-</ul>
-<h2>Beta versions</h2>
-<p>Every new release is developed in a new branch with the corrseponding version number. Please note that new versions of the DTH and Smartapps are released individually.</p>
-<h2>Pull requests</h2>
-<p>PRs are always appreciated. Just watch out for any new version branch and avoid 'master' as a base for your PR.</p>
             ]]>
         </content>
     </entry>
