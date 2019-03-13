@@ -3,7 +3,7 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2019-03-13T14:46:49+01:00</updated>
+    <updated>2019-03-13T14:49:14+01:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
@@ -16,8 +16,10 @@
         </author>
         <link href="https://vervallsweg.github.io/cast-web/File-access-errors/"/>
         <id>https://vervallsweg.github.io/cast-web/File-access-errors/</id>
+            <category term="assistant"/>
+            <category term="FAQ"/>
 
-        <updated>2019-03-13T14:44:57+01:00</updated>
+        <updated>2019-03-13T14:48:58+01:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
