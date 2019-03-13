@@ -3,7 +3,7 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2019-03-13T14:49:14+01:00</updated>
+    <updated>2019-03-13T14:55:33+01:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
@@ -51,7 +51,7 @@
         <link href="https://vervallsweg.github.io/cast-web/google-assistant-integration/"/>
         <id>https://vervallsweg.github.io/cast-web/google-assistant-integration/</id>
 
-        <updated>2019-03-13T14:03:51+01:00</updated>
+        <updated>2019-03-13T14:55:20+01:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -71,10 +71,11 @@
 <p>This will only work for the Audio Notification and speak capability, not for the old music player capability. Also this doesn't affect the existing Google TTS capabilities on your cast-web-devices. You can use both alongside eachother.</p>
 <h2>Common issues</h2>
 <ul>
-<li>The authorize button cannot be clicked, <a href="#INTERNAL_LINK#/post/22">cannot save client id/secret</a></li>
-<li><a href="#INTERNAL_LINK#/post/21">Google-Assistant is not installed</a></li>
+<li>The authorize button cannot be clicked</li>
+<li>Cannot save client id/secret</li>
+<li>Google-Assistant is not installed</li>
 </ul>
-<p>If your issue is still not resolved, vist the <a href="#INTERNAL_LINK#/post/4">help</a> page.</p>
+<p>For issues like this visit the <a href="#INTERNAL_LINK#/tag/2" target="_blank" rel="noopener noreferrer">Google Assistant FAQ</a>. If your issue is still not resolved, vist the <a href="#INTERNAL_LINK#/post/4" target="_blank" rel="noopener noreferrer">help</a> page.</p>
             ]]>
         </content>
     </entry>
