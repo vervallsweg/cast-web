@@ -3,12 +3,44 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2019-03-12T17:17:18+01:00</updated>
+    <updated>2019-03-13T14:46:49+01:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
     <id>https://vervallsweg.github.io/cast-web</id>
 
+    <entry>
+        <title>File access errors</title>
+        <author>
+            <name>vervallsweg</name>
+        </author>
+        <link href="https://vervallsweg.github.io/cast-web/File-access-errors/"/>
+        <id>https://vervallsweg.github.io/cast-web/File-access-errors/</id>
+
+        <updated>2019-03-13T14:44:57+01:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://vervallsweg.github.io/cast-web/media/posts/24/" alt="" />
+                <h2>Symptoms</h2>
+<ul>
+<li>assistant setup authorize button cannot be clicked</li>
+<li>assistant setup progress lost after reload</li>
+</ul>
+<h2>Solutions</h2>
+<p><span data-dobid="hdw">Inaccessible configuration files happen on certain platform. This will be fixed in the next release. For the time being here are some solutions</span></p>
+<h4>Manually create the files</h4>
+<p>See the <a href="https://github.com/vervallsweg/cast-web-api/issues/94" target="_blank" rel="noopener noreferrer">GitHub issue</a>.</p>
+<h4>Manually change the permissions</h4>
+<p>The directory that needs to be accessible is <code>/lib/assistant</code>.</p>
+<p>Advanced: Make sure to grant the user running the api, r+w permissions.</p>
+<p>Quick and dirty: <code><span class="s1">chmod -R 777 test/</span></code></p>
+<h4>Run the api as root</h4>
+<p class="msg msg--highlight ">This is the last option to check if the error is access related. DON'T DO THIS AS A FIX!</p>
+<p><code>sudo cast-web-api</code></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Google Assistant integration</title>
         <author>
@@ -17,42 +49,51 @@
         <link href="https://vervallsweg.github.io/cast-web/google-assistant-integration/"/>
         <id>https://vervallsweg.github.io/cast-web/google-assistant-integration/</id>
 
-        <updated>2019-03-12T17:05:07+01:00</updated>
+        <updated>2019-03-13T14:03:51+01:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                     <img src="https://vervallsweg.github.io/cast-web/media/posts/23/" alt="" />
                 <h2>What does it do?</h2>
-<p>TBD</p>
+<p>It connects to your Google Assistant and broadcasts to all of your Assistant enabled devices on the network. You can try this feature with your assistant right now, just say `Hey Google, broadcast this is a test message`.</p>
+<p class="msg msg--highlight ">This applies only to your Smartthings device called `cast-web-api` not your individual Google cast devices.</p>
 <h2>Installation</h2>
 <div style="height: 315px; width: 560px; overflow: hidden;">
 <div><img src="https://vervallsweg.github.io/cast-web/media/posts/23/cast-web-api-assistant.jpeg" alt="cast-web-api - Google Assistant setup" width="560" height="315">
 <div style="position: relative; bottom: 160px; background-color: black;">Please <a onclick="youTubeCookieConsent(this, 'https://www.youtube.com/embed/f1ij_c2I4Ms?rel=0');">accept</a> cookies by <a href="https://www.youtube.com/static?template=privacy_guidelines">YouTube</a> to play this video. By accepting you will be accessing a service provided by a third party external to cast-web.</div>
 </div>
 </div>
-<h2>Usage</h2>
+<h2>Usage </h2>
+<p class="msg msg--highlight ">This applies only to your Smartthings device called `cast-web-api` not your individual Google cast devices.</p>
+<p>After you followed the setup instructions, you can now use the `cast-web-api` device as a device for audio notifications in your Smartthings app.</p>
+<p>This will only work for the Audio Notification and speak capability, not for the old music player capability. Also this doesn't affect the existing Google TTS capabilities on your cast-web-devices. You can use both alongside eachother.</p>
 <h2>Common issues</h2>
+<ul>
+<li>The authorize button cannot be clicked, <a href="#INTERNAL_LINK#/post/22">cannot save client id/secret</a></li>
+<li><a href="#INTERNAL_LINK#/post/21">Google-Assistant is not installed</a></li>
+</ul>
+<p>If your issue is still not resolved, vist the <a href="#INTERNAL_LINK#/post/4">help</a> page.</p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>Google Assistant problems</title>
+        <title>Assistant configuration lost after update</title>
         <author>
             <name>vervallsweg</name>
         </author>
         <link href="https://vervallsweg.github.io/cast-web/google-assistant-problems/"/>
         <id>https://vervallsweg.github.io/cast-web/google-assistant-problems/</id>
+            <category term="assistant"/>
             <category term="FAQ"/>
 
-        <updated>2019-03-06T15:18:04+01:00</updated>
+        <updated>2019-03-13T14:14:04+01:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
                     <img src="https://vervallsweg.github.io/cast-web/media/posts/22/" alt="" />
-                <h2>Cannot read errors</h2>
-<p><span data-dobid="hdw">Inaccessible configuration files happen on certain platform. This will be fixed in the next release. For the time being you can try to <a href="https://github.com/vervallsweg/cast-web-api/issues/94" target="_blank" rel="noopener noreferrer">manually create them</a>.</span></p>
-<h2>Assistant configuration lost after update</h2>
+                <h2>Assistant configuration lost after update</h2>
 <p>Updating cast-web-api can lead to the google assistant configuration files being deleted. Go to {your api ip address}/assistant/setup and follow the guide again. This will be fixed in the next release.</p>
+<h2> </h2>
             ]]>
         </content>
     </entry>
@@ -63,9 +104,10 @@
         </author>
         <link href="https://vervallsweg.github.io/cast-web/GoogleAssistant-not-installed/"/>
         <id>https://vervallsweg.github.io/cast-web/GoogleAssistant-not-installed/</id>
+            <category term="assistant"/>
             <category term="FAQ"/>
 
-        <updated>2019-03-06T15:18:39+01:00</updated>
+        <updated>2019-03-13T14:12:45+01:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -221,33 +263,6 @@ More ideas coming soon.
             <![CDATA[
                     <img src="https://vervallsweg.github.io/cast-web/media/posts/14/" alt="" />
                 Coming soon.
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>What can I play through presets?</title>
-        <author>
-            <name>vervallsweg</name>
-        </author>
-        <link href="https://vervallsweg.github.io/cast-web/What-can-I-play-through-presets/"/>
-        <id>https://vervallsweg.github.io/cast-web/What-can-I-play-through-presets/</id>
-            <category term="FAQ"/>
-
-        <updated>2018-05-28T19:55:48+02:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://vervallsweg.github.io/cast-web/media/posts/13/" alt="" />
-                <p>Only DRM free content. Probably not what you want your fancy internet connected speaker to play.</p>
-<h2>What is DRM free content?</h2>
-<p>Everything you can get a direct file link to. It needs to be without a login, hosted on the internet or your local network.</p>
-<p>This excludes most streaming services like Netflix or Spotify, since you cannot get a direct link (.mp3/4) and have to log in.</p>
-<p>However most radio stations have direct links and don't need a login.</p>
-<h2>What formats are supported?</h2>
-<p> </p>
-<p>Almost every major format is supported. A <a href="https://developers.google.com/cast/docs/media#media-type-strings" target="_blank" rel="noopener noreferrer">full list</a> is available by Google.</p>
-<h2>How do I create presets?</h2>
-<p>Use the <a href="https://vervallsweg.github.io/smartthings/cast-web-preset-generator/preset-generator.html" target="_blank" rel="noopener noreferrer">preset generator</a>. A guide is available.</p>
             ]]>
         </content>
     </entry>
