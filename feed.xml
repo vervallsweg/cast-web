@@ -3,7 +3,7 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2019-03-13T14:55:33+01:00</updated>
+    <updated>2019-04-13T12:43:43+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
@@ -105,12 +105,12 @@
         <author>
             <name>vervallsweg</name>
         </author>
-        <link href="https://vervallsweg.github.io/cast-web/GoogleAssistant-not-installed/"/>
-        <id>https://vervallsweg.github.io/cast-web/GoogleAssistant-not-installed/</id>
+        <link href="https://vervallsweg.github.io/cast-web/googleassistant-not-installed/"/>
+        <id>https://vervallsweg.github.io/cast-web/googleassistant-not-installed/</id>
             <category term="assistant"/>
             <category term="FAQ"/>
 
-        <updated>2019-03-13T14:12:45+01:00</updated>
+        <updated>2019-04-13T12:43:30+02:00</updated>
             <summary></summary>
         <content type="html">
             <![CDATA[
@@ -123,6 +123,8 @@
 <p><code>sudo npm install google-assistant -g ---unsafe-perm</code></p>
 <p>To install cast-web-api with all dependencies from the get go also add the same flag:</p>
 <p><code>sudo npm install cast-web-api -g --unsafe-perm</code></p>
+<h2>Also try</h2>
+<p>Updating your node version. The official lowest version for the package and it's dependencies is Node 7. There have been reports where updating your node version and running the above command again, fixes the errors.</p>
 <h2>node-gyp errors</h2>
 <p>Coming soon.</p>
             ]]>
