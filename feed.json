@@ -11,17 +11,29 @@
     },
     "items": [
         {
-            "id": "https://vervallsweg.github.io/cast-web/File-access-errors/",
-            "url": "https://vervallsweg.github.io/cast-web/File-access-errors/",
-            "title": "File access errors",
-            "content_html": "<h2>Symptoms</h2>\n<ul>\n<li>assistant setup authorize button cannot be clicked</li>\n<li>assistant setup progress lost after reload</li>\n</ul>\n<h2>Solutions</h2>\n<p><span data-dobid=\"hdw\">Inaccessible configuration files happen on certain platform. This will be fixed in the next release. For the time being here are some solutions</span></p>\n<h4>Manually create the files</h4>\n<p>See the <a href=\"https://github.com/vervallsweg/cast-web-api/issues/94\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub issue</a>.</p>\n<h4>Manually change the permissions</h4>\n<p>The directory that needs to be accessible is <code>/lib/assistant</code>.</p>\n<p>Advanced: Make sure to grant the user running the api, r+w permissions.</p>\n<p>Quick and dirty: <code><span class=\"s1\">chmod -R 777 test/</span></code></p>\n<h4>Run the api as root</h4>\n<p class=\"msg msg--highlight \">This is the last option to check if the error is access related. DON'T DO THIS AS A FIX!</p>\n<p><code>sudo cast-web-api</code></p>",
-            "image": "https://vervallsweg.github.io/cast-web/media/posts/24/",
+            "id": "https://vervallsweg.github.io/cast-web/release-of-cast-web-v120/",
+            "url": "https://vervallsweg.github.io/cast-web/release-of-cast-web-v120/",
+            "title": "Release of cast-web v1.2.0",
+            "summary": "There's no need to updated the DTHs or service manager with this release. The version number was just increased to notify useres of the update through the Smartthings app. Version 1.2.0 includes some minor bug fixes and new features, like callbacks that are saved in&hellip;",
+            "content_html": "<p class=\"msg msg--info\">There's no need to updated the DTHs or service manager with this release. The version number was just increased to notify useres of the update through the Smartthings app.</p>\n<p>Version 1.2.0 includes some minor bug fixes and new features, like callbacks that are saved in a config file now. See the full changelog <a href=\"https://github.com/vervallsweg/cast-web-api/blob/v1.2.0/changelog.md\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.</p>\n<p>The major change is the seperation into three different projects:</p>\n<ul>\n<li><strong>cast-web-api</strong>: the main api itself</li>\n<li><strong>cast-web-api-cli</strong>: it wraps the api and manages it, no need to install forever, etc. just run <code>cast-web-api-cli start</code> or stop/status, etc. takes care of everything, even after reboots</li>\n<li><strong>cast-web-api-desktop</strong>: also wraps and manages the api but is a proper desktop application, for win/mac/linux, just download and install, like any other application</li>\n</ul>\n<h2 id=\"mcetoc_1dbt49k1k0\">How do I update?</h2>\n<p>That depends on your use case.</p>\n<h3 id=\"mcetoc_1dbt4up3f3\">As easy as possible</h3>\n<p>Great news! There's now a proper desktop application called `cast-web-api-desktop`. Just download and install like any other application, click start and you're all set. See the <a href=\"#INTERNAL_LINK#/post/6\">install guide</a> for more info.</p>\n<p>Make sure to uninstall everything if you are updating.</p>\n<ol>\n<li><code>npm uninstall cast-web-api -g</code></li>\n<li><code>npm uninstall forever -g</code></li>\n</ol>\n<h3 id=\"mcetoc_1dbt4hrg12\">I'm not scared of the terminal, but as easy as possible please</h3>\n<p>Great news for you too! The new `cast-web-api-cli` package wraps an manages the api and provides, easy, short commands to manage it. All without requiring a monitor or gui, so you can use it headless on a server.</p>\n<ol>\n<li><code>npm uninstall cast-web-api -g</code></li>\n<li><code>npm install cast-web-api-cli -g</code> <a href=\"#INTERNAL_LINK#/post/21\">node-gyp errors</a> still possible for now</li>\n<li><code>cast-web-api-cli</code> to get the usage guide</li>\n<li><code>cast-web-api-cli start</code> to start the api in the background</li>\n</ol>\n<p>You'll find all the commands in the usage guide.</p>\n<h3 id=\"mcetoc_1dbt4a78k1\">I know what I'm doing in the terminal</h3>\n<p>You guessed it, great news too! If you have found a way to manage the api, that works for you (like forever/pm2), nothing changes. Since the cast-web-api package is the base for all other packages, you'll receive all the updates as usual and can continue using your setup. The update is just an `npm update` away.</p>\n<h3 id=\"mcetoc_1dbt4hrg12\"> </h3>\n<h3 id=\"mcetoc_1dbt4up3f3\"> </h3>",
             "author": {
                 "name": "vervallsweg"
             },
             "tags": [
-                   "assistant",
-                   "FAQ"
+            ],
+            "date_published": "2019-05-27T13:39:57+02:00",
+            "date_modified": "2019-05-30T21:53:13+02:00"
+        },
+        {
+            "id": "https://vervallsweg.github.io/cast-web/File-access-errors/",
+            "url": "https://vervallsweg.github.io/cast-web/File-access-errors/",
+            "title": "File access errors",
+            "summary": "Symptomsassistant setup authorize button cannot be clickedassistant setup progress lost after reloadSolutionsInaccessible configuration files happen on certain platform. This will be fixed in the next release. For the time being here are some solutions See the GitHub issue. The directory that needs to be accessible is /lib/assistant. Advanced: Make&hellip;",
+            "content_html": "<h2>Symptoms</h2>\n<ul>\n<li>assistant setup authorize button cannot be clicked</li>\n<li>assistant setup progress lost after reload</li>\n</ul>\n<h2>Solutions</h2>\n<p><span >Inaccessible configuration files happen on certain platform. This will be fixed in the next release. For the time being here are some solutions</span></p>\n<h4>Manually create the files</h4>\n<p>See the <a href=\"https://github.com/vervallsweg/cast-web-api/issues/94\" target=\"_blank\" rel=\"noopener noreferrer\">GitHub issue</a>.</p>\n<h4>Manually change the permissions</h4>\n<p>The directory that needs to be accessible is <code>/lib/assistant</code>.</p>\n<p>Advanced: Make sure to grant the user running the api, r+w permissions.</p>\n<p>Quick and dirty: <code><span class=\"s1\">chmod -R 777 test/</span></code></p>\n<h4>Run the api as root</h4>\n<p class=\"msg msg--highlight \">This is the last option to check if the error is access related. DON'T DO THIS AS A FIX!</p>\n<p><code>sudo cast-web-api</code></p>",
+            "author": {
+                "name": "vervallsweg"
+            },
+            "tags": [
             ],
             "date_published": "2019-03-13T14:44:57+01:00",
             "date_modified": "2019-03-13T14:48:58+01:00"
@@ -30,28 +42,26 @@
             "id": "https://vervallsweg.github.io/cast-web/google-assistant-integration/",
             "url": "https://vervallsweg.github.io/cast-web/google-assistant-integration/",
             "title": "Google Assistant integration",
-            "content_html": "<h2>What does it do?</h2>\n<p>It connects to your Google Assistant and broadcasts to all of your Assistant enabled devices on the network. You can try this feature with your assistant right now, just say `Hey Google, broadcast this is a test message`.</p>\n<p class=\"msg msg--highlight \">This applies only to your Smartthings device called `cast-web-api` not your individual Google cast devices.</p>\n<h2>Installation</h2>\n<div style=\"height: 315px; width: 560px; overflow: hidden;\">\n<div><img src=\"https://vervallsweg.github.io/cast-web/media/posts/23/cast-web-api-assistant.jpeg\" alt=\"cast-web-api - Google Assistant setup\" width=\"560\" height=\"315\">\n<div style=\"position: relative; bottom: 160px; background-color: black;\">Please <a onclick=\"youTubeCookieConsent(this, 'https://www.youtube.com/embed/f1ij_c2I4Ms?rel=0');\">accept</a> cookies by <a href=\"https://www.youtube.com/static?template=privacy_guidelines\">YouTube</a> to play this video. By accepting you will be accessing a service provided by a third party external to cast-web.</div>\n</div>\n</div>\n<h2>Usage </h2>\n<p class=\"msg msg--highlight \">This applies only to your Smartthings device called `cast-web-api` not your individual Google cast devices.</p>\n<p>After you followed the setup instructions, you can now use the `cast-web-api` device as a device for audio notifications in your Smartthings app.</p>\n<p>This will only work for the Audio Notification and speak capability, not for the old music player capability. Also this doesn't affect the existing Google TTS capabilities on your cast-web-devices. You can use both alongside eachother.</p>\n<h2>Common issues</h2>\n<ul>\n<li>The authorize button cannot be clicked</li>\n<li>Cannot save client id/secret</li>\n<li>Google-Assistant is not installed</li>\n</ul>\n<p>For issues like this visit the <a href=\"#INTERNAL_LINK#/tag/2\" target=\"_blank\" rel=\"noopener noreferrer\">Google Assistant FAQ</a>. If your issue is still not resolved, vist the <a href=\"#INTERNAL_LINK#/post/4\" target=\"_blank\" rel=\"noopener noreferrer\">help</a> page.</p>",
-            "image": "https://vervallsweg.github.io/cast-web/media/posts/23/",
+            "summary": "What does it do?It connects to your Google Assistant and broadcasts to all of your Assistant enabled devices on the network. You can try this feature with your assistant right now, just say `Hey Google, broadcast this is a test message`. This applies only to your&hellip;",
+            "content_html": "<h2 id=\"mcetoc_1dc53m86b0\">What does it do?</h2>\n<p>It connects to your Google Assistant and broadcasts to all of your Assistant enabled devices on the network. You can try this feature with your assistant right now, just say `Hey Google, broadcast this is a test message`.</p>\n<p class=\"msg msg--highlight \">This applies only to your Smartthings device called `cast-web-api` not your individual Google cast devices.</p>\n<h2 id=\"mcetoc_1dc53m86b1\">Installation</h2>\n<div style=\"height: 315px; width: 560px; overflow: hidden;\">\n<div><img src=\"https://vervallsweg.github.io/cast-web/media/posts/23/cast-web-api-assistant.jpeg\" alt=\"cast-web-api - Google Assistant setup\" width=\"560\" height=\"315\">\n<div style=\"position: relative; bottom: 160px; background-color: black;\">Please <a onclick=\"youTubeCookieConsent(this, 'https://www.youtube.com/embed/f1ij_c2I4Ms?rel=0');\">accept</a> cookies by <a href=\"https://www.youtube.com/static?template=privacy_guidelines\">YouTube</a> to play this video. By accepting you will be accessing a service provided by a third party external to cast-web.</div>\n</div>\n</div>\n<h2 id=\"mcetoc_1dc53m86b2\">Usage </h2>\n<p class=\"msg msg--highlight \">This applies only to your Smartthings device called `cast-web-api` not your individual Google cast devices.</p>\n<p>After you followed the setup instructions, you can now use the `cast-web-api` device as a device for audio notifications in your Smartthings app.</p>\n<p>This will only work for the Audio Notification and speak capability, not for the old music player capability. Also this doesn't affect the existing Google TTS capabilities on your cast-web-devices. You can use both alongside eachother.</p>\n<h2 id=\"mcetoc_1dc53m86b3\">Common issues</h2>\n<ul>\n<li>The authorize button cannot be clicked</li>\n<li>Cannot save client id/secret</li>\n<li>Google-Assistant is not installed</li>\n</ul>\n<p>For issues like this visit the <a href=\"#INTERNAL_LINK#/tag/2\" target=\"_blank\" rel=\"noopener noreferrer\">Google Assistant FAQ</a>. If your issue is still not resolved, vist the <a href=\"#INTERNAL_LINK#/post/4\" target=\"_blank\" rel=\"noopener noreferrer\">help</a> page.</p>",
             "author": {
                 "name": "vervallsweg"
             },
             "tags": [
             ],
             "date_published": "2019-03-12T15:35:40+01:00",
-            "date_modified": "2019-03-13T14:55:20+01:00"
+            "date_modified": "2019-05-30T21:33:01+02:00"
         },
         {
             "id": "https://vervallsweg.github.io/cast-web/google-assistant-problems/",
             "url": "https://vervallsweg.github.io/cast-web/google-assistant-problems/",
             "title": "Assistant configuration lost after update",
+            "summary": "Assistant configuration lost after updateUpdating cast-web-api can lead to the google assistant configuration files being deleted. Go to {your api ip address}/assistant/setup and follow the guide again. This will be fixed in the next release. ",
             "content_html": "<h2>Assistant configuration lost after update</h2>\n<p>Updating cast-web-api can lead to the google assistant configuration files being deleted. Go to {your api ip address}/assistant/setup and follow the guide again. This will be fixed in the next release.</p>\n<h2> </h2>",
-            "image": "https://vervallsweg.github.io/cast-web/media/posts/22/",
             "author": {
                 "name": "vervallsweg"
             },
             "tags": [
-                   "assistant",
-                   "FAQ"
             ],
             "date_published": "2019-03-02T23:50:42+01:00",
             "date_modified": "2019-03-13T14:14:04+01:00"
@@ -60,14 +70,12 @@
             "id": "https://vervallsweg.github.io/cast-web/googleassistant-not-installed/",
             "url": "https://vervallsweg.github.io/cast-web/googleassistant-not-installed/",
             "title": "&#x27;GoogleAssistant not installed&#x27;",
+            "summary": "What causes this issue?For the Assistant features a package called 'google-assistant' needs to be installed. Since there are often issues when installing that package, it is marked as optional. Meaning when you installed cast-web-api v&gt;1.0 it couldn't install this package and just skipped it. However&hellip;",
             "content_html": "<h2>What causes this issue?</h2>\n<p>For the Assistant features a package called 'google-assistant' needs to be installed. Since there are often issues when installing that package, it is marked as optional. Meaning when you installed cast-web-api v&gt;1.0 it couldn't install this package and just skipped it. However cast-web-api can work without the assistant, it is optional.</p>\n<h2>The most likely fix</h2>\n<p>You need to grant the install scripts of the 'google-assistant' package or cast-web-api root permisions.</p>\n<p>To install after first install of cast-web-api:</p>\n<p><code>sudo npm install google-assistant -g ---unsafe-perm</code></p>\n<p>To install cast-web-api with all dependencies from the get go also add the same flag:</p>\n<p><code>sudo npm install cast-web-api -g --unsafe-perm</code></p>\n<h2>Also try</h2>\n<p>Updating your node version. The official lowest version for the package and it's dependencies is Node 7. There have been reports where updating your node version and running the above command again, fixes the errors.</p>\n<h2>node-gyp errors</h2>\n<p>Coming soon.</p>",
-            "image": "https://vervallsweg.github.io/cast-web/media/posts/21/",
             "author": {
                 "name": "vervallsweg"
             },
             "tags": [
-                   "assistant",
-                   "FAQ"
             ],
             "date_published": "2018-09-19T20:57:31+02:00",
             "date_modified": "2019-04-13T12:43:30+02:00"
@@ -76,13 +84,12 @@
             "id": "https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device/",
             "url": "https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device/",
             "title": "My devices are only called &#x27;cast-web-device&#x27;",
+            "summary": "This is a communication issue between the cast-web-api and your SmartThings Hub. Should you not see the current version, start it or check the install guide again. Should you not see the current version, there is a network issue. Make sure that there's no firewall on the&hellip;",
             "content_html": "<p>This is a communication issue between the cast-web-api and your SmartThings Hub.</p>\n<h2>Ensure that your cast-web-api is running</h2>\n<ol>\n<li>Open a browser window</li>\n<li>Enter the cast-web-api address, it is displayed on startup and looks roughly like this <code><a href=\"http://192.168.2.104:300/\">http://192.168.2.104:300/</a></code></li>\n<li>It should display the version of your cast-web-api</li>\n</ol>\n<p>Should you not see the current version, start it or check the <a href=\"#INTERNAL_LINK#/post/6\">install guide</a> again.</p>\n<ol>\n<li>Try opening the same address you just opened on a different device on the same network. Your phone for example.</li>\n</ol>\n<p>Should you not see the current version, there is a network issue. Make sure that there's no firewall on the API device that's blocking the connection. Also ensure that the API device and your SmartThings hub are on the same network and can communicate.</p>\n<ol>\n<li>Open your SmartThings app</li>\n<li>On your devices page, navigate to cast-web-api</li>\n<li>Press the refresh button</li>\n<li>Wait a couple of seconds, your devices should no work properly</li>\n</ol>\n<p>If they're still not working correctly, check the <a href=\"#INTERNAL_LINK#/post/4\">help</a> page for other solutions.</p>",
-            "image": "https://vervallsweg.github.io/cast-web/media/posts/19/",
             "author": {
                 "name": "vervallsweg"
             },
             "tags": [
-                   "FAQ"
             ],
             "date_published": "2018-06-02T16:57:08+02:00",
             "date_modified": "2018-06-02T16:57:08+02:00"
@@ -91,13 +98,12 @@
             "id": "https://vervallsweg.github.io/cast-web/Automation-ideas/",
             "url": "https://vervallsweg.github.io/cast-web/Automation-ideas/",
             "title": "Automation ideas",
+            "summary": "Cast-web basically sets up your Google Cast devices as selectable speakers for any audio output in SmartThins. Every other SmartThings Smartapp that works with SmartThings speakers can now use your Google Cast devices. Apps include many community Smartapps like BigTalker2 and even official SmartThings apps like SpeakerNotifyWithSound&hellip;",
             "content_html": "<p>Cast-web basically sets up your Google Cast devices as selectable speakers for any audio output in SmartThins.</p>\n<p>Every other SmartThings Smartapp that works with SmartThings speakers can now use your Google Cast devices. Apps include many community Smartapps like BigTalker2 and even official SmartThings apps like SpeakerNotifyWithSound (defunct) and Speaker companion.</p>\n<p>All of these features are available to Google Cast devices with a screen (Chromecasts, etc.) and without one (Google Homes, Chromecast audios, etc.) and even groups you created in the Google Home app. </p>\n<h2>Stop my Chromecast audios when I turn on the TV</h2>\n<p> </p>\nMore ideas coming soon.",
-            "image": "https://vervallsweg.github.io/cast-web/media/posts/18/",
             "author": {
                 "name": "vervallsweg"
             },
             "tags": [
-                   "FAQ"
             ],
             "date_published": "2018-06-02T16:19:54+02:00",
             "date_modified": "2018-06-02T17:14:08+02:00"
@@ -106,13 +112,12 @@
             "id": "https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1/",
             "url": "https://vervallsweg.github.io/cast-web/Roadmap-for-version-1.1/",
             "title": "Roadmap for version 1.1.0",
+            "summary": "Google Assistant support: you can now broadcast messages to your Google Homes, without interrupting playbackFixed: use Google TTS to read out characters longer than 200 charactersPreset objects now support queueingPreset generator now lets queue multiple elements",
             "content_html": "<ul>\n<li>Google Assistant support: you can now broadcast messages to your Google Homes, without interrupting playback</li>\n<li>Fixed: use Google TTS to read out characters longer than 200 characters</li>\n<li>Preset objects now support queueing</li>\n<li>Preset generator now lets queue multiple elements</li>\n</ul>",
-            "image": "https://vervallsweg.github.io/cast-web/media/posts/17/",
             "author": {
                 "name": "vervallsweg"
             },
             "tags": [
-                   "Roadmap"
             ],
             "date_published": "2018-05-29T13:28:25+02:00",
             "date_modified": "2018-09-19T21:24:16+02:00"
@@ -121,8 +126,8 @@
             "id": "https://vervallsweg.github.io/cast-web/request-a-feature/",
             "url": "https://vervallsweg.github.io/cast-web/request-a-feature/",
             "title": "Request a feature",
+            "summary": "Loading...",
             "content_html": "<iframe width=\"100%\" height=\"1000px\" src=\"https://docs.google.com/forms/d/e/1FAIpQLSe3MkdvLfJ1EoMnSS7xSQIR6YedbKt3DVIKqizuHJ8X9bp1Gg/viewform?embedded=true\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe>",
-            "image": "https://vervallsweg.github.io/cast-web/media/posts/16/",
             "author": {
                 "name": "vervallsweg"
             },
@@ -135,8 +140,8 @@
             "id": "https://vervallsweg.github.io/cast-web/donate/",
             "url": "https://vervallsweg.github.io/cast-web/donate/",
             "title": "Donate",
+            "summary": "What started as a private DIY project has now turned into a really capable, stable and widely used project. cast-web is mainly maintained by one person, me vervallsweg. This is not what I do for a living, but the workload of this project often comes pretty&hellip;",
             "content_html": "<p>What started as a private DIY project has now turned into a really capable, stable and widely used project.</p>\n<p>cast-web is mainly maintained by one person, me vervallsweg. This is not what I do for a living, but the workload of this project often comes pretty close. If you like cast-web please consider donating, it helps me as a student pay my bills and dedicate more of my time towards this project.</p>\n<p>This project is add free, not behind a paywall, completly free and open source. Please help to keep it the way it is.</p>\n<p>Thank you.</p>\n<p><a href=\"https://www.paypal.me/vervallsweg\" title=\" \" id=\"donate\" class=\"btn\" style=\"font-size: 1.5em;\"> </a> </p>\n<script>// <![CDATA[\n\tdocument.querySelector('a#donate').innerHTML = '<i class=\"icon paypal\" style=\"margin:0;\"></i>';\n// ]]></script>",
-            "image": "https://vervallsweg.github.io/cast-web/media/posts/15/",
             "author": {
                 "name": "vervallsweg"
             },
@@ -144,21 +149,6 @@
             ],
             "date_published": "2018-05-29T01:56:17+02:00",
             "date_modified": "2018-05-29T02:17:50+02:00"
-        },
-        {
-            "id": "https://vervallsweg.github.io/cast-web/How-do-I-use-the-preset-generator/",
-            "url": "https://vervallsweg.github.io/cast-web/How-do-I-use-the-preset-generator/",
-            "title": "How do I use the preset generator?",
-            "content_html": "Coming soon.",
-            "image": "https://vervallsweg.github.io/cast-web/media/posts/14/",
-            "author": {
-                "name": "vervallsweg"
-            },
-            "tags": [
-                   "FAQ"
-            ],
-            "date_published": "2018-05-28T19:57:22+02:00",
-            "date_modified": "2018-05-28T19:57:22+02:00"
         }
     ]
 }
