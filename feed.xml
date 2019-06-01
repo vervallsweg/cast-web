@@ -3,7 +3,7 @@
     <title>cast-web</title>
     <link href="https://vervallsweg.github.io/cast-web/feed.xml" rel="self" />
     <link href="https://vervallsweg.github.io/cast-web" />
-    <updated>2019-05-30T23:31:43+02:00</updated>
+    <updated>2019-06-01T18:06:19+02:00</updated>
     <author>
         <name>vervallsweg</name>
     </author>
@@ -162,7 +162,7 @@
         <link href="https://vervallsweg.github.io/cast-web/googleassistant-not-installed/"/>
         <id>https://vervallsweg.github.io/cast-web/googleassistant-not-installed/</id>
 
-        <updated>2019-04-13T12:43:30+02:00</updated>
+        <updated>2019-06-01T18:06:12+02:00</updated>
             <summary>
                 <![CDATA[
                     What causes this issue?For the Assistant features a package called 'google-assistant' needs to be installed. Since there are often issues when installing that package, it is marked as optional. Meaning when you installed cast-web-api v&gt;1.0 it couldn't install this package and just skipped it. However&hellip;
@@ -170,17 +170,17 @@
             </summary>
         <content type="html">
             <![CDATA[
-                <h2>What causes this issue?</h2>
+                <h2 id="mcetoc_1dc9skq5b0">What causes this issue?</h2>
 <p>For the Assistant features a package called 'google-assistant' needs to be installed. Since there are often issues when installing that package, it is marked as optional. Meaning when you installed cast-web-api v&gt;1.0 it couldn't install this package and just skipped it. However cast-web-api can work without the assistant, it is optional.</p>
-<h2>The most likely fix</h2>
+<h2 id="mcetoc_1dc9skq5b1">The most likely fix</h2>
 <p>You need to grant the install scripts of the 'google-assistant' package or cast-web-api root permisions.</p>
 <p>To install after first install of cast-web-api:</p>
-<p><code>sudo npm install google-assistant -g ---unsafe-perm</code></p>
+<p><code>sudo npm install google-assistant -g --unsafe-perm</code></p>
 <p>To install cast-web-api with all dependencies from the get go also add the same flag:</p>
 <p><code>sudo npm install cast-web-api -g --unsafe-perm</code></p>
-<h2>Also try</h2>
+<h2 id="mcetoc_1dc9skq5b2">Also try</h2>
 <p>Updating your node version. The official lowest version for the package and it's dependencies is Node 7. There have been reports where updating your node version and running the above command again, fixes the errors.</p>
-<h2>node-gyp errors</h2>
+<h2 id="mcetoc_1dc9skq5b3">node-gyp errors</h2>
 <p>Coming soon.</p>
             ]]>
         </content>

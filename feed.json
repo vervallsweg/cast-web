@@ -71,14 +71,14 @@
             "url": "https://vervallsweg.github.io/cast-web/googleassistant-not-installed/",
             "title": "&#x27;GoogleAssistant not installed&#x27;",
             "summary": "What causes this issue?For the Assistant features a package called 'google-assistant' needs to be installed. Since there are often issues when installing that package, it is marked as optional. Meaning when you installed cast-web-api v&gt;1.0 it couldn't install this package and just skipped it. However&hellip;",
-            "content_html": "<h2>What causes this issue?</h2>\n<p>For the Assistant features a package called 'google-assistant' needs to be installed. Since there are often issues when installing that package, it is marked as optional. Meaning when you installed cast-web-api v&gt;1.0 it couldn't install this package and just skipped it. However cast-web-api can work without the assistant, it is optional.</p>\n<h2>The most likely fix</h2>\n<p>You need to grant the install scripts of the 'google-assistant' package or cast-web-api root permisions.</p>\n<p>To install after first install of cast-web-api:</p>\n<p><code>sudo npm install google-assistant -g ---unsafe-perm</code></p>\n<p>To install cast-web-api with all dependencies from the get go also add the same flag:</p>\n<p><code>sudo npm install cast-web-api -g --unsafe-perm</code></p>\n<h2>Also try</h2>\n<p>Updating your node version. The official lowest version for the package and it's dependencies is Node 7. There have been reports where updating your node version and running the above command again, fixes the errors.</p>\n<h2>node-gyp errors</h2>\n<p>Coming soon.</p>",
+            "content_html": "<h2 id=\"mcetoc_1dc9skq5b0\">What causes this issue?</h2>\n<p>For the Assistant features a package called 'google-assistant' needs to be installed. Since there are often issues when installing that package, it is marked as optional. Meaning when you installed cast-web-api v&gt;1.0 it couldn't install this package and just skipped it. However cast-web-api can work without the assistant, it is optional.</p>\n<h2 id=\"mcetoc_1dc9skq5b1\">The most likely fix</h2>\n<p>You need to grant the install scripts of the 'google-assistant' package or cast-web-api root permisions.</p>\n<p>To install after first install of cast-web-api:</p>\n<p><code>sudo npm install google-assistant -g --unsafe-perm</code></p>\n<p>To install cast-web-api with all dependencies from the get go also add the same flag:</p>\n<p><code>sudo npm install cast-web-api -g --unsafe-perm</code></p>\n<h2 id=\"mcetoc_1dc9skq5b2\">Also try</h2>\n<p>Updating your node version. The official lowest version for the package and it's dependencies is Node 7. There have been reports where updating your node version and running the above command again, fixes the errors.</p>\n<h2 id=\"mcetoc_1dc9skq5b3\">node-gyp errors</h2>\n<p>Coming soon.</p>",
             "author": {
                 "name": "vervallsweg"
             },
             "tags": [
             ],
             "date_published": "2018-09-19T20:57:31+02:00",
-            "date_modified": "2019-04-13T12:43:30+02:00"
+            "date_modified": "2019-06-01T18:06:12+02:00"
         },
         {
             "id": "https://vervallsweg.github.io/cast-web/My-devices-are-only-called-cast-web-device/",
